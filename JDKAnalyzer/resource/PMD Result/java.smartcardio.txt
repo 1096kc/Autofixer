@@ -1,0 +1,144 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:28:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:51:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:68:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:68:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:74:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:74:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:94:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:94:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:127:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:139:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ATR.java:155:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/Card.java:28:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:209:	The method 'getActions()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:229:	The method 'implies(Permission)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:238:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:241:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:263:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:271:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardPermission.java:279:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardTerminal.java:28:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CardTerminals.java:193:	Unnecessary modifier 'static' on enum 'State': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:69:	Avoid unused private fields such as 'MAX_APDU_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:128:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:128:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:133:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:133:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:411:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:448:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:448:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:567:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:579:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/CommandAPDU.java:595:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ResponseAPDU.java:146:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ResponseAPDU.java:159:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/ResponseAPDU.java:175:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:33:	Avoid unused imports such as 'sun.security.jca.GetInstance'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:89:	Class contains multiple getInstance methods. Please review.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:105:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:119:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:143:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:146:	The method 'engineTerminals()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:153:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:156:	The method 'list(State)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:162:	The method 'waitForChange(long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:250:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:289:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:321:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactory.java:366:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/javax/smartcardio/TerminalFactorySpi.java:28:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:28:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:42:	Unnecessary modifier 'static' on enum 'State': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:60:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:63:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:78:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:80:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:82:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:84:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:142:	The method 'getATR()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:146:	The method 'getProtocol()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:158:	The method 'getBasicChannel()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:175:	The method 'openLogicalChannel()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:182:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:182:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:185:	Unnecessary use of fully qualified name 'PCSC.toString' due to existing static import 'sun.security.smartcardio.PCSC.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:204:	The method 'beginExclusive()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:221:	The method 'endExclusive()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:237:	The method 'transmitControlCommand(int, byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:247:	Consider simply returning the value vs storing it in local variable 'r'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:254:	The method 'disconnect(boolean)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:263:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:272:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/CardImpl.java:278:	The method 'finalize()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:51:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:65:	The method 'getCard()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:69:	The method 'getChannelNumber()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:79:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:79:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:85:	The method 'transmit(CommandAPDU)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:93:	The method 'transmit(ByteBuffer, ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:102:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:132:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:134:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:144:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:144:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:164:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:164:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:168:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:168:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:181:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:181:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:185:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:191:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:191:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:193:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:193:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:218:	Avoid using a branching statement as the last in a loop.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:237:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:237:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:262:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:268:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:282:	Unnecessary use of fully qualified name 'PCSC.toString' due to existing static import 'sun.security.smartcardio.PCSC.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/ChannelImpl.java:292:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:28:	Avoid unused imports such as 'java.security.AccessController'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:52:	The native method name 'SCardEstablishContext' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:56:	The native method name 'SCardListReaders' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:61:	The native method name 'SCardConnect' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:65:	The native method name 'SCardTransmit' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:70:	The native method name 'SCardStatus' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:74:	The native method name 'SCardDisconnect' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:79:	The native method name 'SCardGetStatusChange' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:83:	The native method name 'SCardBeginTransaction' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:87:	The native method name 'SCardEndTransaction' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSC.java:91:	The native method name 'SCardControl' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:50:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:75:	The method 'list(State)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:110:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:116:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:131:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/PCSCTerminals.java:154:	The method 'waitForChange(long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/SunPCSC.java:55:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/SunPCSC.java:56:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/SunPCSC.java:73:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/SunPCSC.java:95:	The method 'engineTerminals()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:28:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:55:	The method 'getName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:59:	The method 'connect(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:67:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:89:	The method 'isCardPresent()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:135:	The method 'waitForCardPresent(long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:139:	The method 'waitForCardAbsent(long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/share/classes/sun/security/smartcardio/TerminalImpl.java:143:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:43:	The utility class name 'PlatformPCSC' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:55:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:61:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:70:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:71:	Consider simply returning the value vs storing it in local variable 'e'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/unix/classes/sun/security/smartcardio/PlatformPCSC.java:98:	Consider simply returning the value vs storing it in local variable 's'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/windows/classes/sun/security/smartcardio/PlatformPCSC.java:32:	The utility class name 'PlatformPCSC' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/windows/classes/sun/security/smartcardio/PlatformPCSC.java:36:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/windows/classes/sun/security/smartcardio/PlatformPCSC.java:47:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/windows/classes/sun/security/smartcardio/PlatformPCSC.java:53:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.smartcardio/windows/classes/sun/security/smartcardio/PlatformPCSC.java:54:	Consider simply returning the value vs storing it in local variable 'e'

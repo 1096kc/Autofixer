@@ -1,0 +1,86 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKey.java:122:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKey.java:125:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyPairGenerator.java:75:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:237:	Unnecessary use of fully qualified name 'java.security.Key' due to existing import 'java.security.Key'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:248:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:305:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:358:	Unnecessary use of fully qualified name 'java.security.Key' due to existing import 'java.security.Key'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:400:	'catch' branch identical to 'CertificateException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:749:	Avoid unused private methods such as 'generateCertificateChain(String,Collection)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:756:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:763:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:763:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:776:	Avoid unused private methods such as 'generateKeyAndCertificateChain(boolean,String,long,long,int,Collection)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:784:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:791:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:791:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:806:	Avoid unused private methods such as 'generateCertificate(byte,Collection)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:820:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:825:	'catch' branch identical to 'CertificateException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:825:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CKeyStore.java:825:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPrivateKey.java:36:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPrivateKey.java:60:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPrivateKey.java:75:	Avoid unused method parameters such as 'out'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPublicKey.java:91:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CPublicKey.java:177:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:30:	Avoid duplicate imports such as 'java.security.Key'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:84:	Avoid unused private fields such as 'paddingType'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:114:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:145:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:211:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:212:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:213:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:222:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:268:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:268:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:357:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:357:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:374:	Unnecessary use of fully qualified name 'java.security.Key' due to existing import 'java.security.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:383:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CRSACipher.java:411:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:77:	You shouldnt declare field of MessageDigest type, because unsynchronized access could cause problems
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:133:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:148:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:154:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:157:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.RSAPublicKey'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:158:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.RSAPublicKey'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:165:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:457:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:462:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:528:	Unnecessary use of fully qualified name 'java.security.interfaces.RSAPublicKey' due to existing import 'java.security.interfaces.RSAPublicKey'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:528:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:588:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:595:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:655:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:701:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:724:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:729:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:833:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/CSignature.java:838:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:66:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:68:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:82:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:83:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:86:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:87:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:89:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:92:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:93:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:95:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:97:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:99:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:101:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:103:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:105:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:107:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:109:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:111:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:113:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:115:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:117:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:120:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:121:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:124:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:125:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.mscapi/windows/classes/sun/security/mscapi/SunMSCAPI.java:126:	Position literals first in String comparisons

@@ -1,0 +1,116 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/ReferenceWrapper.java:56:	The method 'getReference()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:51:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:85:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:123:	The method 'finalize()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:127:	The method 'lookup(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:129:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:135:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:135:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:139:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:142:	The method 'lookup(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:150:	The method 'bind(Name, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:152:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:160:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:166:	The method 'bind(String, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:170:	The method 'rebind(Name, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:172:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:182:	The method 'rebind(String, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:186:	The method 'unbind(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:188:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:193:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:200:	The method 'unbind(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:208:	The method 'rename(Name, Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:213:	The method 'rename(String, String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:217:	The method 'list(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:220:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:225:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:231:	The method 'list(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:236:	The method 'listBindings(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:240:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:245:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:251:	The method 'listBindings(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:256:	The method 'destroySubcontext(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:257:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:260:	The method 'destroySubcontext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:261:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:264:	The method 'createSubcontext(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:265:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:268:	The method 'createSubcontext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:269:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:272:	The method 'lookupLink(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:276:	The method 'lookupLink(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:280:	The method 'getNameParser(Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:284:	The method 'getNameParser(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:288:	The method 'composeName(Name, Name)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:293:	The method 'composeName(String, String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:300:	The method 'removeFromEnvironment(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:306:	The method 'addToEnvironment(String, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:316:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:316:	The method 'getEnvironment()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:320:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:327:	The method 'getNameInNamespace()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:342:	The method 'getReference()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:347:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:354:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:361:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:434:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:456:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:459:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:461:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:475:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:509:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:522:	The method 'parse(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:523:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:540:	The method 'hasMore()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:541:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:544:	The method 'next()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:546:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:551:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:558:	The method 'hasMoreElements()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:562:	The method 'nextElement()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:566:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:566:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:571:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:598:	The method 'finalize()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:602:	The method 'hasMore()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:606:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:609:	The method 'next()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:611:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:616:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:625:	The method 'hasMoreElements()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:629:	The method 'nextElement()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:633:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:633:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContext.java:639:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:64:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:64:	The method 'getInitialContext(Hashtable)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:72:	The method 'getObjectInstance(Object, Name, Context, Hashtable)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:73:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:98:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:98:	The static method name 'URLToContext' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:107:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:111:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:111:	The static method name 'URLsToObject' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:122:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:130:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:159:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/rmi/registry/RegistryContextFactory.java:166:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:48:	The class name 'rmiURLContext' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:50:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:59:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:59:	The method 'getRootURLContext(String, Hashtable)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:63:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:91:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:99:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContext.java:133:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:47:	The class name 'rmiURLContextFactory' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:49:	The method 'getObjectInstance(Object, Name, Context, Hashtable)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:50:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:54:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:60:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:66:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:82:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:86:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.naming.rmi/share/classes/com/sun/jndi/url/rmi/rmiURLContextFactory.java:92:	This for loop can be replaced by a foreach loop

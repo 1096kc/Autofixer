@@ -1,0 +1,553 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:34:	Avoid unused imports such as 'java.util.Locale'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:83:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:88:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:96:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:96:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:106:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:106:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:121:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:135:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:142:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:157:	'catch' branch identical to 'ClassNotFoundException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/AbstractCharsetProvider.java:159:	'catch' branch identical to 'ClassNotFoundException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:31:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:32:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:32:	Avoid unused imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:33:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:35:	The class name 'Big5_HKSCS_2001' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:41:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:42:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:42:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:43:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:44:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:47:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/Big5_HKSCS_2001.java:51:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:38:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:39:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:50:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:54:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:55:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:58:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:62:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:68:	Avoid unused private fields such as 'G0'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:68:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:69:	Avoid unused private fields such as 'G1'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:69:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:70:	Avoid unused private fields such as 'G2'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:70:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:71:	Avoid unused private fields such as 'G3'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:71:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:72:	Avoid unused private fields such as 'G4'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:72:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:73:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:74:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:76:	Avoid unused private fields such as 'firstByte'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:76:	Avoid unused private fields such as 'state'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:76:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:86:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:87:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:91:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:92:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:96:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:124:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:138:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:141:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:143:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:158:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:165:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:174:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:185:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:192:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:198:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:202:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:204:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:214:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:216:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM33722.java:218:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:32:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:36:	Avoid unused imports such as 'java.nio.charset.CoderResult'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:47:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:48:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:51:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:57:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:68:	The method 'encodeChar(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:90:	The method 'isLegalReplacement(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM834.java:93:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:42:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:46:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:47:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:47:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:48:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:51:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/IBM949C.java:59:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:51:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:55:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:56:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:56:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:57:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:60:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:64:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:479:	The method 'implFlush(CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:503:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:504:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:509:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:510:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:515:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:515:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:522:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:541:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:553:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:600:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:616:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:625:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:655:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:655:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:662:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:681:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:693:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:740:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:756:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:765:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:785:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:789:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:791:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:808:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:810:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:810:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:812:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:813:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:814:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:824:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:825:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:829:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:830:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:832:	Avoid unused local variables such as 'outputSize'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:842:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:864:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:874:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:878:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:905:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:927:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:937:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:941:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:954:	The method 'encodeLoop(CharBuffer, ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:958:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISCII91.java:960:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:56:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:60:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:79:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:87:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:104:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:128:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:136:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:143:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:151:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:159:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:173:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:174:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:179:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:180:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:182:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:199:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:220:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:225:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:229:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:238:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:242:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:255:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:260:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:262:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:284:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:299:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:321:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:326:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:330:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:338:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:342:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:354:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:359:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:361:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:379:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:383:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:385:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:396:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:418:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:419:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:422:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:494:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:495:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:499:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:500:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:514:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:540:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:542:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:562:	Avoid unused local variables such as 'inputSize'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:574:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:600:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:601:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:615:	The method 'encodeLoop(CharBuffer, ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:619:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022.java:621:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:37:	Avoid unused imports such as 'java.nio.charset.CharacterCodingException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:38:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:39:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:40:	Avoid duplicate imports such as 'sun.nio.cs.US_ASCII'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:41:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:43:	The class name 'ISO2022_CN' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:62:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:66:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:67:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:67:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:68:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:69:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:70:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:73:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:77:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:81:	The method 'canEncode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:102:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:107:	The method parameter name 'SS' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:112:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:114:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:116:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:121:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:125:	The instance method name 'SODecode' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:125:	The method parameter name 'SOD' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:136:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:145:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:160:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:166:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:170:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:176:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:181:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:193:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:202:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:214:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:219:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:223:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:235:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:241:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:248:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:253:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:268:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:274:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:275:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:280:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:281:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:293:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:299:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:302:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:308:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:318:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:331:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:339:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:360:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:372:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:385:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:390:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:402:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:406:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN.java:408:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:32:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:33:	Avoid unused imports such as 'java.nio.CharBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:36:	Avoid unused imports such as 'java.nio.charset.CoderResult'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:37:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:38:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:40:	The class name 'ISO2022_CN_CNS' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:46:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:48:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:48:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:49:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:50:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:53:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:57:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:61:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:77:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:81:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:83:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:85:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:97:	The method 'isLegalReplacement(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_CNS.java:99:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:32:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:33:	Avoid unused imports such as 'java.nio.CharBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:36:	Avoid unused imports such as 'java.nio.charset.CoderResult'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:37:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:38:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:40:	The class name 'ISO2022_CN_GB' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:47:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:49:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:49:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:50:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:51:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:54:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:58:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:62:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:76:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:87:	The method 'isLegalReplacement(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_CN_GB.java:89:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:35:	Avoid duplicate imports such as 'sun.nio.cs.DelegatableDecoder'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:36:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:37:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:38:	Avoid duplicate imports such as 'sun.nio.cs.Surrogate'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:39:	Avoid duplicate imports such as 'sun.nio.cs.US_ASCII'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:123:	The class name 'ISO2022_JP' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:149:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:153:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:154:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:154:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:155:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:156:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:157:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:160:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:164:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:198:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:207:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:212:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:213:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:218:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:219:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:231:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:252:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:275:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:277:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:297:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:301:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:306:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:310:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:334:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:342:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:346:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:370:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:394:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:396:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:416:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:421:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:426:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:431:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:451:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:453:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:455:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:458:	Overriding method merely calls super
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:458:	The method 'implFlush(CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:493:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:497:	The method 'implReplaceWith(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:509:	The method 'implFlush(ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:512:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:521:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:522:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:522:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:523:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:524:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:525:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:527:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:538:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:539:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:543:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:544:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:552:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:559:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:565:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:572:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:578:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:585:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:592:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:599:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:602:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:606:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:614:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:619:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:624:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:637:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:661:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:668:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:674:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:681:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:686:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:693:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:700:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:707:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:710:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:714:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:722:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:727:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:731:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:744:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:756:	The method 'encodeLoop(CharBuffer, ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:760:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP.java:762:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:31:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:32:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:34:	The class name 'ISO2022_JP_2' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:41:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:45:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:47:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:48:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:51:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:55:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_JP_2.java:59:	The utility class name 'CoderHolder' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:32:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:33:	Avoid unused imports such as 'java.nio.CharBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:36:	Avoid unused imports such as 'java.nio.charset.CoderResult'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:37:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:38:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:40:	The class name 'ISO2022_KR' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:47:	Possible unsafe assignment to a non-final static field in a constructor.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:50:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:52:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:52:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:53:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:54:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:57:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:61:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:65:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:78:	An empty statement (semicolon) not part of a loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:78:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:89:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:92:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/ISO2022_KR.java:93:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:34:	Avoid unused imports such as 'java.nio.charset.CharacterCodingException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:35:	Avoid unused imports such as 'java.nio.charset.MalformedInputException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:36:	Avoid duplicate imports such as 'sun.nio.cs.DelegatableDecoder'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:37:	Avoid duplicate imports such as 'sun.nio.cs.HistoricallyNamedCharset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:40:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:41:	Avoid unused imports such as 'java.lang.Character.UnicodeBlock'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:49:	Avoid unused private fields such as 'EUCJP_MASK'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:50:	Avoid unused private fields such as 'SJIS2B_MASK'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:51:	Avoid unused private fields such as 'SJIS1B_MASK'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:52:	Avoid unused private fields such as 'EUCJP_KANA1_MASK'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:53:	Avoid unused private fields such as 'EUCJP_KANA2_MASK'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:59:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:60:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:60:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:61:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:62:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:63:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:66:	The method 'canEncode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:70:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:74:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:78:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:89:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:89:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:90:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:90:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:116:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:116:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:128:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:134:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:138:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:152:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:168:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:174:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:180:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:183:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:187:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:198:	The method 'implReset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:202:	The method 'implFlush(CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:204:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:206:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:209:	The method 'isAutoDetecting()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:213:	The method 'isCharsetDetected()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:217:	The method 'detectedCharset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:219:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:228:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:228:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:229:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:229:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:231:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:231:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:233:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:233:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:241:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:241:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:242:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:242:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:244:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/JISAutoDetect.java:244:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:31:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:32:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:45:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:49:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:51:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:52:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:55:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:59:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50220.java:75:	The method 'doSBKANA()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:29:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:38:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:42:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:44:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:45:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS50221.java:48:	The method 'doSBKANA()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:31:	Avoid duplicate imports such as 'sun.nio.cs.DoubleByte'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:32:	Avoid unused imports such as 'sun.nio.cs'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:35:	The class name 'MS932_0213' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:40:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:41:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:41:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:42:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:43:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:46:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:50:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:61:	The method 'decodeDouble(int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:64:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:77:	The method 'encodeChar(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MS932_0213.java:80:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:40:	The method 'historicalName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:44:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:46:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:49:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:53:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/MSISO2022JP.java:57:	The utility class name 'CoderHolder' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:36:	Avoid unused imports such as 'java.util.Arrays'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:37:	Avoid duplicate imports such as 'sun.nio.cs.CharsetMapping'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:60:	The class name 'SJIS_0213' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:65:	The method 'contains(Charset)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:66:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:66:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:67:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:68:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:71:	The method 'newDecoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:75:	The method 'newEncoder()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:81:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:106:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:110:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:118:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:120:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:126:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:149:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:152:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:160:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:162:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:168:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:183:	The method 'decodeLoop(ByteBuffer, CharBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:185:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:187:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:200:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:203:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:206:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:219:	The method 'canEncode(char)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:220:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:267:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:269:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:271:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:286:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:290:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:294:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:295:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:298:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:301:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:303:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:332:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:334:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:336:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:351:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:355:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:360:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:363:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:366:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:368:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:386:	The method 'encodeLoop(CharBuffer, ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:388:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:390:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:393:	The method 'implFlush(ByteBuffer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:396:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.charsets/share/classes/sun/nio/cs/ext/SJIS_0213.java:405:	The method 'implReset()' is missing an @Override annotation.

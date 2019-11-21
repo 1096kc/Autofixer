@@ -1,0 +1,161 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AbstractOptionSpec.java:66:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AbstractOptionSpec.java:128:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AbstractOptionSpec.java:148:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AbstractOptionSpec.java:150:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AbstractOptionSpec.java:163:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AlternativeLongOptionSpec.java:64:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/AlternativeLongOptionSpec.java:91:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:65:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Reflection'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:66:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:154:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:195:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:224:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:256:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:288:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:290:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:296:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:298:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:315:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentAcceptingOptionSpec.java:350:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentList.java:58:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ArgumentList.java:87:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:64:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:65:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Classes'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:66:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:205:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:206:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:231:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:275:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:276:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:277:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:310:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:360:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:378:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:409:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:470:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:490:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:492:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:518:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:520:	Unnecessary use of fully qualified name 'Strings.isNullOrEmpty' due to existing static import 'jdk.internal.joptsimple.internal.Strings.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:522:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/BuiltinHelpFormatter.java:553:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/NonOptionArgumentSpec.java:62:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Reflection'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/NonOptionArgumentSpec.java:143:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionException.java:69:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Messages'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionException.java:96:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionException.java:129:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:70:	Avoid unused imports such as 'jdk.internal.joptsimple.OptionException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:71:	Avoid unused imports such as 'jdk.internal.joptsimple.OptionParserState'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:72:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:224:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:295:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:337:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:339:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:384:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:403:	The instance method name '_recognizedOptions' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:406:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:425:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:446:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:456:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:464:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:472:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:479:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:486:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:517:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:540:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:553:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:578:	Unnecessary use of fully qualified name 'OptionParserState.noMoreOptions' due to existing static import 'jdk.internal.joptsimple.OptionParserState.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:627:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:663:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParser.java:666:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParserState.java:58:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParserState.java:94:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionParserState.java:98:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:248:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:252:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:281:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:302:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:313:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:319:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:322:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:340:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSet.java:351:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:142:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:163:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:204:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:224:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:246:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:266:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:287:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecBuilder.java:300:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:60:	Avoid unused imports such as 'jdk.internal.joptsimple.ParserRules'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:76:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:87:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:98:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:113:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:115:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:123:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionSpecTokenizer.java:136:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionalArgumentOptionSpec.java:81:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionalArgumentOptionSpec.java:83:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionalArgumentOptionSpec.java:85:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionalArgumentOptionSpec.java:88:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/OptionalArgumentOptionSpec.java:97:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ParserRules.java:94:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ParserRules.java:96:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ParserRules.java:101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/ParserRules.java:107:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/RequiredArgumentOptionSpec.java:78:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:127:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:145:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:147:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:164:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:186:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:189:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:204:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:212:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:217:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:221:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:223:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:236:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:240:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:242:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:261:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/AbbreviationMap.java:263:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Classes.java:64:	The utility class name 'Classes' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:64:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:85:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:98:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:107:	Unnecessary use of fully qualified name 'BreakIterator.getLineInstance' due to existing static import 'java.text.BreakIterator.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:113:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:117:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Columns.java:132:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/ConstructorInvokingValueConverter.java:62:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Reflection'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Messages.java:65:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Messages.java:65:	The utility class name 'Messages' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/MethodInvokingValueConverter.java:62:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Reflection'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:66:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Classes'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:90:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:94:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:103:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:164:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:166:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Reflection.java:168:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Row.java:73:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Row.java:75:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Rows.java:63:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Rows.java:101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Rows.java:106:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/SimpleOptionNameMap.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Strings.java:66:	The utility class name 'Strings' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Strings.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/internal/Strings.java:140:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/DateConverter.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/DateConverter.java:110:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/EnumConverter.java:121:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/InetAddressConverter.java:77:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/KeyValuePair.java:58:	Avoid unused imports such as 'jdk.internal.joptsimple.internal.Strings'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/KeyValuePair.java:87:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/KeyValuePair.java:98:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/PathConverter.java:53:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.opt/share/classes/jdk/internal/joptsimple/util/PathProperties.java:76:	Unnecessary modifier 'private' on constructor 'PathProperties(String)': enum constructors are implicitly private

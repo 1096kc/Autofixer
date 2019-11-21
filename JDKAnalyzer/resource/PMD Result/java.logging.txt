@@ -1,0 +1,164 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:214:	Ensure that resources like this FileOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:215:	Ensure that resources like this FileOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:253:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:506:	Ensure that resources like this FileChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:543:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/FileHandler.java:785:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Filter.java:48:	Unnecessary modifier 'public' on method 'isLoggable': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Formatter.java:48:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Formatter.java:119:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Formatter.java:138:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:63:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:64:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:65:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:66:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:67:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:75:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:114:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:194:	Unnecessary use of fully qualified name 'java.io.UnsupportedEncodingException' due to existing import 'java.io.UnsupportedEncodingException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:202:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Handler.java:338:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:85:	The utility class name 'RbAccess' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:200:	Avoid unused private fields such as 'standardLevels'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:299:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:396:	Avoid unused local variables such as 'levelObject'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:401:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:498:	Avoid unused local variables such as 'levelObject'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:503:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:528:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:682:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Level.java:687:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:166:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:175:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:179:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:188:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:202:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:272:	Avoid unused local variables such as 'mgr'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:297:	Avoid unused constructor parameters such as 'checked'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:302:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:339:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:342:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:361:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:576:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:611:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:674:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:976:	Avoid unused method parameters such as 'name'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:985:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:992:	Avoid unused method parameters such as 'name'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1082:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1220:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1360:	Avoid unused local variables such as 'witness'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1365:	Avoid unused local variables such as 'witness'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1376:	Unnecessary modifier 'final' on resource specification 'in': resource specifications are implicitly final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1377:	Ensure that resources like this BufferedInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1455:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1471:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1525:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1598:	Avoid unused local variables such as 'witness'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1612:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1637:	Unnecessary modifier 'static' on enum 'ConfigProperty': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1641:	Unnecessary modifier 'private' on constructor 'ConfigProperty(String)': enum constructors are implicitly private
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1647:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1648:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1659:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1777:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1791:	Unnecessary modifier 'static' on enum 'ModType': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1872:	Unnecessary modifier 'final' on resource specification 'in': resource specifications are implicitly final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:1873:	Ensure that resources like this BufferedInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2094:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2161:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2175:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2179:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2186:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2212:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2218:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2218:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2249:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2322:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2323:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2323:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2325:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2325:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2355:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2377:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2432:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2451:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2520:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2654:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2655:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2661:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2662:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogManager.java:2673:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogRecord.java:74:	Unnecessary use of fully qualified name 'java.io.Serializable' due to existing import 'java.io.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogRecord.java:636:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogRecord.java:738:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LogRecord.java:738:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:263:	The utility class name 'RbAccess' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:279:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:281:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:282:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:283:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:284:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:379:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:442:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:444:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:446:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:459:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:460:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:817:	Consider simply returning the value vs storing it in local variable 'result'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:1688:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2033:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2211:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2211:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2276:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2436:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logger.java:2520:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/Logging.java:63:	This for loop could be simplified to a while loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingMXBean.java:65:	Unnecessary modifier 'public' on method 'getLoggerNames': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingMXBean.java:91:	Unnecessary modifier 'public' on method 'getLoggerLevel': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingMXBean.java:117:	Unnecessary modifier 'public' on method 'setLoggerLevel': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingMXBean.java:132:	Unnecessary modifier 'public' on method 'getParentLoggerName': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingPermission.java:55:	Unnecessary use of fully qualified name 'java.security.BasicPermission' due to existing import 'java.security.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/LoggingPermission.java:71:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/MemoryHandler.java:91:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/MemoryHandler.java:95:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/MemoryHandler.java:278:	Overriding method merely calls super
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/SocketHandler.java:147:	Ensure that resources like this OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/SocketHandler.java:148:	Ensure that resources like this OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/SocketHandler.java:164:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/StreamHandler.java:81:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/StreamHandler.java:141:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/StreamHandler.java:161:	Unnecessary use of fully qualified name 'java.io.UnsupportedEncodingException' due to existing import 'java.io.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/XMLFormatter.java:104:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/XMLFormatter.java:246:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/XMLFormatter.java:317:	Unnecessary use of fully qualified name 'java.nio.charset.Charset.defaultCharset' due to existing import 'java.nio.charset.Charset'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/java/util/logging/XMLFormatter.java:323:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/net/www/protocol/http/logging/HttpLogFormatter.java:39:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/net/www/protocol/http/logging/HttpLogFormatter.java:41:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/net/www/protocol/http/logging/HttpLogFormatter.java:45:	Possible unsafe assignment to a non-final static field in a constructor.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/net/www/protocol/http/logging/HttpLogFormatter.java:46:	Possible unsafe assignment to a non-final static field in a constructor.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:90:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:90:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:135:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:140:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:145:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:150:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:155:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:160:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:165:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:170:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:175:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:181:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:187:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:193:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:200:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:207:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:214:	Unnecessary use of fully qualified name 'sun.util.logging.PlatformLogger.Level' due to existing import 'sun.util.logging.PlatformLogger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:290:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:307:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:329:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:336:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:439:	Unnecessary modifier 'static' on interface 'LogManagerAccess': member interfaces are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:451:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.logging/share/classes/sun/util/logging/internal/LoggingProviderImpl.java:456:	Use of modifier volatile is not recommended.

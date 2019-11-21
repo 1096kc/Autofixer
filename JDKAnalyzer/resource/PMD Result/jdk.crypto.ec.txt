@@ -1,0 +1,120 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:39:	Avoid unused imports such as 'sun.security.util.math'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:40:	Avoid unused imports such as 'sun.security.ec.point'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:61:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:61:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:165:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:165:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDHKeyAgreement.java:199:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSAOperations.java:28:	Avoid unused imports such as 'sun.security.ec.point'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSAOperations.java:30:	Avoid unused imports such as 'sun.security.util.math'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSAOperations.java:163:	The local variable name 'R' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSAOperations.java:181:	The local variable name 'E' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSASignature.java:61:	You shouldnt declare field of MessageDigest type, because unsynchronized access could cause problems
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSASignature.java:394:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSASignature.java:522:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECDSASignature.java:523:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:58:	Singleton is not thread safe
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:63:	'catch' branch identical to 'NoSuchProviderException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:71:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:120:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:132:	The method 'engineTranslateKey(Key)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:137:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:150:	The method 'engineGeneratePublic(KeySpec)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:162:	The method 'engineGeneratePrivate(KeySpec)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyFactory.java:247:	The method 'engineGetKeySpec(Key, Class)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:31:	Avoid duplicate imports such as 'java.security.spec.AlgorithmParameterSpec'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:32:	Avoid duplicate imports such as 'java.security.spec.ECGenParameterSpec'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:33:	Avoid duplicate imports such as 'java.security.spec.ECParameterSpec'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:34:	Avoid duplicate imports such as 'java.security.spec.ECPoint'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:35:	Avoid duplicate imports such as 'java.security.spec.InvalidParameterSpecException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:41:	Avoid unused imports such as 'sun.security.util.math'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:42:	Avoid unused imports such as 'sun.security.ec.point'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:130:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECKeyPairGenerator.java:171:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:28:	Avoid unused imports such as 'sun.security.ec.point'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:29:	Avoid unused imports such as 'sun.security.util.math'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:30:	Avoid unused imports such as 'sun.security.util.math.intpoly'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:188:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:198:	Avoid unused method parameters such as 'zero'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECOperations.java:205:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:100:	Ensure that resources like this DerOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:127:	Ensure that resources like this DerOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:140:	The method 'getAlgorithm()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:145:	The method 'getS()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:167:	The method 'getParams()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:174:	The method 'parseKeyBits()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:191:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:193:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPrivateKeyImpl.java:207:	'catch' branch identical to 'IOException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:75:	The method 'getAlgorithm()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:80:	The method 'getW()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:85:	The method 'getParams()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:100:	The method 'parseKeyBits()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:112:	'catch' branch identical to 'IOException' branch
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/ECPublicKeyImpl.java:118:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:62:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:79:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:81:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:95:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:100:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:101:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:103:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:104:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:106:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:107:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:109:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:110:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:112:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:113:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:115:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:116:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:119:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:120:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:122:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:124:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:126:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:129:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:130:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:133:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:134:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:136:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:138:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:140:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:143:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:144:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:146:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:148:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:150:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:175:	The local variable name 'ATTRS' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:298:	The local variable name 'ATTRS' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:306:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:309:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:315:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:318:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:324:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/SunEC.java:327:	Do not hard code the IP address 
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyAgreement.java:90:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyAgreement.java:164:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyAgreement.java:210:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyFactory.java:112:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyPairGenerator.java:67:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHKeyPairGenerator.java:92:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHPrivateKeyImpl.java:78:	Ensure that resources like this DerOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHPublicKeyImpl.java:31:	Avoid unused imports such as 'java.security.PublicKey'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHPublicKeyImpl.java:55:	The local variable name 'u_arr' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XDHPublicKeyImpl.java:72:	The local variable name 'u_arr' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:211:	The local variable name 'x_1' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:212:	The local variable name 'x_2' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:213:	The local variable name 'z_2' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:214:	The local variable name 'x_3' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:215:	The local variable name 'z_3' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:221:	The local variable name 'DA' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:222:	The local variable name 'E' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:223:	The local variable name 'a24_times_E' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECOperations.java:228:	The local variable name 'k_t' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECParameters.java:114:	The final local variable name 'TWO' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECParameters.java:127:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECParameters.java:139:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECParameters.java:159:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/XECParameters.java:169:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.crypto.ec/share/classes/sun/security/ec/point/ProjectivePoint.java:27:	Avoid unused imports such as 'sun.security.util.math'

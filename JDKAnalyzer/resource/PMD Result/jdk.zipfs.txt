@@ -1,0 +1,408 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:97:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:111:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:124:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:132:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:163:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:194:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:197:	Unnecessary modifier 'final' on method 'beginWrite': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:201:	Unnecessary modifier 'final' on method 'endWrite': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:205:	Unnecessary modifier 'final' on method 'beginRead': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:209:	Unnecessary modifier 'final' on method 'endRead': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:239:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:241:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:247:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ByteArrayChannel.java:248:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystem.java:68:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystem.java:133:	Avoid using implementation types like 'TreeMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystem.java:164:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystemProvider.java:44:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystemProvider.java:61:	Ensure that resources like this FileSystem object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystemProvider.java:67:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/JarFileSystemProvider.java:70:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:55:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:63:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:89:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:92:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:102:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:107:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:110:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:112:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipCoder.java:114:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:31:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:31:	The utility class name 'ZipConstants' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:169:	The static method name 'CH' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:173:	The static method name 'SH' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:177:	The static method name 'LG' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:181:	The static method name 'LL' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:199:	The static method name 'LOCSIG' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:200:	The static method name 'LOCVER' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:201:	The static method name 'LOCFLG' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:202:	The static method name 'LOCHOW' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:203:	The static method name 'LOCTIM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:204:	The static method name 'LOCCRC' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:205:	The static method name 'LOCSIZ' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:206:	The static method name 'LOCLEN' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:207:	The static method name 'LOCNAM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:208:	The static method name 'LOCEXT' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:211:	The static method name 'EXTCRC' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:212:	The static method name 'EXTSIZ' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:213:	The static method name 'EXTLEN' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:216:	The static method name 'ENDSUB' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:217:	The static method name 'ENDTOT' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:218:	The static method name 'ENDSIZ' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:219:	The static method name 'ENDOFF' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:220:	The static method name 'ENDCOM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:221:	The static method name 'ENDCOM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:224:	The static method name 'ZIP64_ENDTOD' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:225:	The static method name 'ZIP64_ENDTOT' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:226:	The static method name 'ZIP64_ENDSIZ' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:227:	The static method name 'ZIP64_ENDOFF' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:228:	The static method name 'ZIP64_LOCOFF' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:231:	The static method name 'CENSIG' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:232:	The static method name 'CENVEM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:233:	The static method name 'CENVER' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:234:	The static method name 'CENFLG' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:235:	The static method name 'CENHOW' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:236:	The static method name 'CENTIM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:237:	The static method name 'CENCRC' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:238:	The static method name 'CENSIZ' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:239:	The static method name 'CENLEN' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:240:	The static method name 'CENNAM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:241:	The static method name 'CENEXT' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:242:	The static method name 'CENCOM' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:243:	The static method name 'CENDSK' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:244:	The static method name 'CENATT' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:245:	The static method name 'CENATX' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipConstants.java:246:	The static method name 'CENOFF' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:46:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:47:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:50:	Unnecessary use of fully qualified name 'java.nio.file.Path' due to existing import 'java.nio.file.Path'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:58:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:64:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:66:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:78:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipDirectoryStream.java:85:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:85:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:87:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:89:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:91:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:105:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:112:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:140:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:144:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileAttributeView.java:148:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:65:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:77:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:98:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:99:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:100:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:102:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:103:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:125:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileStore.java:131:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:72:	Avoid unused imports such as 'jdk.nio.zipfs.ZipConstants'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:73:	Avoid unused imports such as 'jdk.nio.zipfs.ZipUtils'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:276:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:283:	Ensure that resources like this InputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:283:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:300:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:304:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:317:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:319:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:325:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:375:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:377:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:379:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:381:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:383:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:421:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:434:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:449:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:463:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:471:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:480:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:482:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:487:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:501:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:509:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:512:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:530:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:532:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:534:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:536:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:538:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:541:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:548:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:559:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:576:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:578:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:589:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:591:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:594:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:609:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:611:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:615:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:637:	Unnecessary use of fully qualified name 'StandardOpenOption.WRITE' due to existing static import 'java.nio.file.StandardOpenOption.WRITE'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:638:	Unnecessary use of fully qualified name 'StandardOpenOption.APPEND' due to existing static import 'java.nio.file.StandardOpenOption.APPEND'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:646:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:664:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:677:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:699:	Unnecessary use of fully qualified name 'StandardOpenOption.WRITE' due to existing static import 'java.nio.file.StandardOpenOption.WRITE'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:699:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:700:	Unnecessary use of fully qualified name 'StandardOpenOption.APPEND' due to existing static import 'java.nio.file.StandardOpenOption.APPEND'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:708:	Unnecessary use of fully qualified name 'StandardOpenOption.CREATE' due to existing static import 'java.nio.file.StandardOpenOption.CREATE'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:709:	Unnecessary use of fully qualified name 'StandardOpenOption.CREATE_NEW' due to existing static import 'java.nio.file.StandardOpenOption.CREATE_NEW'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:713:	Unnecessary use of fully qualified name 'StandardOpenOption.CREATE_NEW' due to existing static import 'java.nio.file.StandardOpenOption.CREATE_NEW'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:717:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:721:	Unnecessary use of fully qualified name 'StandardOpenOption.CREATE_NEW' due to existing static import 'java.nio.file.StandardOpenOption.CREATE_NEW'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:726:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:728:	Ensure that resources like this FileChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:822:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:877:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:884:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:907:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:916:	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:959:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:968:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:976:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1106:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1113:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1126:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1144:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1155:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1221:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1223:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1232:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1251:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1263:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1307:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1327:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1349:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1417:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1419:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1430:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1432:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1435:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1445:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1447:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1451:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1452:	Ensure that resources like this OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1457:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1498:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1533:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1540:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1581:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1612:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1628:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1630:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1632:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1646:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1679:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1685:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1760:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1791:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1924:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1959:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1964:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1987:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:1992:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2132:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2134:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2143:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2208:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2216:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2252:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2254:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2256:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2272:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2274:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2278:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2280:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2333:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2341:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2343:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2370:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2372:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2376:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2378:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2404:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2415:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2420:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2426:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2432:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2438:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2441:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2443:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2458:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2464:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2466:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2470:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2475:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2498:	Avoid using a branching statement as the last in a loop.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2503:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2505:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2508:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2510:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2516:	Ensure that resources like this Formatter object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2598:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2600:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2605:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2607:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2646:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2646:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2658:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystem.java:2664:	Ensure you override both equals() and hashCode()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:58:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:58:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:67:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:88:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:105:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:117:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:119:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:145:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:146:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:155:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:168:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:172:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:180:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:182:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipFileSystemProvider.java:327:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:33:	Avoid unused imports such as 'jdk.nio.zipfs.ZipConstants'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:43:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:69:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:74:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:108:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:119:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:135:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:158:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:160:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:161:	Avoid using a branching statement as the last in a loop.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:179:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:182:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipInfo.java:196:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:64:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:92:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:94:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:102:	Avoid empty while statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:104:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:115:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:116:	Avoid empty while statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:118:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:134:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:137:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:138:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:140:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:154:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:160:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:162:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:217:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:218:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:220:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:223:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:224:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:226:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:228:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:232:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:242:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:244:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:246:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:248:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:257:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:263:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:263:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:271:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:275:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:295:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:297:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:331:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:335:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:339:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:351:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:355:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:358:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:360:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:361:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:362:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:363:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:366:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:376:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:378:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:383:	Unnecessary modifier 'final' on method 'resolveSibling': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:388:	Unnecessary modifier 'final' on method 'startsWith': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:393:	Unnecessary modifier 'final' on method 'endsWith': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:401:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:408:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:415:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:427:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:442:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:448:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:455:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:460:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:462:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:473:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:478:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:480:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:501:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:503:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:505:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:511:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:520:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:523:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:528:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:530:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:534:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:545:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:547:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:549:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:556:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:581:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:581:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:584:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:594:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:597:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:598:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:608:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:612:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:625:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:649:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:672:	Unnecessary modifier 'final' on method 'toFile': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:683:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:709:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:711:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:713:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:719:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:721:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:723:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:738:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:761:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:817:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:823:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:826:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:866:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:878:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:901:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:905:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:915:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:917:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:934:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:961:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:968:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:968:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:969:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:970:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:970:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:971:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:972:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:972:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:973:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:981:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:984:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:986:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:1006:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipPath.java:1009:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipUtils.java:42:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipUtils.java:121:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.zipfs/share/classes/jdk/nio/zipfs/ZipUtils.java:263:	Avoid assignments in operands

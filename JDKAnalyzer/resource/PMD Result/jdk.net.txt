@@ -1,0 +1,38 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/linux/classes/jdk/net/LinuxSocketOptions.java:34:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/macosx/classes/jdk/net/MacOSXSocketOptions.java:34:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java:202:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java:205:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java:231:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java:234:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java:322:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:48:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:106:	Perhaps 'value' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:110:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:111:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:112:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:113:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:114:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:115:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:116:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:117:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:118:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:145:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/SocketFlow.java:158:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/Sockets.java:239:	Avoid unused private methods such as 'checkValueType(Object,Class)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/Sockets.java:247:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/Sockets.java:248:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/Sockets.java:354:	The utility class name 'QuickAck' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/net/Sockets.java:367:	The utility class name 'KeepAliveOptions' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:51:	The utility class name 'Channels' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:157:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:167:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:200:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:216:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:217:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:218:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:220:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:221:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:222:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:242:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/share/classes/jdk/nio/Channels.java:244:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.net/solaris/classes/jdk/net/SolarisSocketOptions.java:35:	Document empty constructor

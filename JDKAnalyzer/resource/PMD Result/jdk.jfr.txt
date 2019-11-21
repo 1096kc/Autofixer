@@ -1,0 +1,407 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/AnnotationElement.java:193:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/AnnotationElement.java:362:	Unnecessary modifier 'final' on method 'getAnnotation': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/AnnotationElement.java:409:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/DataAmount.java:48:	Unnecessary modifiers 'public static final' on field 'BITS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/DataAmount.java:52:	Unnecessary modifiers 'public static final' on field 'BYTES': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Enabled.java:50:	Unnecessary modifiers 'public static final' on field 'NAME': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Event.java:96:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Event.java:102:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Event.java:110:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Event.java:121:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Event.java:169:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/EventFactory.java:174:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/EventFactory.java:176:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/EventFactory.java:191:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/EventFactory.java:192:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/EventSettings.java:59:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:60:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:61:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:192:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:193:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:194:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:195:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:196:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:197:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:198:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:199:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:200:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorder.java:200:	Unnecessary use of fully qualified name 'LogLevel.INFO' due to existing static import 'jdk.jfr.internal.LogLevel.INFO'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorderListener.java:57:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/FlightRecorderListener.java:78:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Period.java:47:	Unnecessary modifiers 'public static final' on field 'NAME': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Registered.java:54:	Unnecessary modifier 'public' on method 'value': the method is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/StackTrace.java:48:	Unnecessary modifiers 'public static final' on field 'NAME': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Threshold.java:48:	Unnecessary modifiers 'public static final' on field 'NAME': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timespan.java:48:	Unnecessary modifiers 'public static final' on field 'TICKS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timespan.java:52:	Unnecessary modifiers 'public static final' on field 'SECONDS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timespan.java:56:	Unnecessary modifiers 'public static final' on field 'MILLISECONDS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timespan.java:60:	Unnecessary modifiers 'public static final' on field 'NANOSECONDS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timespan.java:65:	Unnecessary modifiers 'public static final' on field 'MICROSECONDS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timestamp.java:49:	Unnecessary modifiers 'public static final' on field 'MILLISECONDS_SINCE_EPOCH': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/Timestamp.java:55:	Unnecessary modifiers 'public static final' on field 'TICKS': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/ChunkParser.java:125:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/ChunkParser.java:156:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/LongMap.java:39:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/ObjectFactory.java:44:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:294:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:431:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:484:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:487:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:587:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:590:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:593:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:734:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedObject.java:813:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordedStackTrace.java:67:	Consider simply returning the value vs storing it in local variable 'list'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordingFile.java:185:	Avoid using implementation types like 'HashSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/RecordingFile.java:195:	Avoid using implementation types like 'HashSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/consumer/TimeConverter.java:56:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/events/AbstractJDKEvent.java:36:	No abstract method which means that the keyword is most likely used to prevent instantiation. Use a private or protected constructor instead.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/events/SecurityPropertyModificationEvent.java:28:	Avoid unused imports such as 'jdk.jfr'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/events/X509CertificateEvent.java:28:	Avoid unused imports such as 'jdk.jfr'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/events/X509ValidationEvent.java:28:	Avoid unused imports such as 'jdk.jfr'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ASMToolkit.java:41:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ASMToolkit.java:41:	The utility class name 'ASMToolkit' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ASMToolkit.java:62:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ASMToolkit.java:151:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/AnnotationConstruct.java:67:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/AnnotationConstruct.java:91:	Unnecessary modifier 'final' on method 'getAnnotation': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:30:	The utility class name 'Bits' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:128:	The static method name 'putByte_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:132:	The static method name 'putBoolean_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:136:	The static method name 'putChar_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:140:	The static method name 'putShort_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:144:	The static method name 'putInt_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:148:	The static method name 'putLong_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:152:	The static method name 'putFloat_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Bits.java:156:	The static method name 'putDouble_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:103:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:105:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:114:	Invoke equals() on the object you've already ensured is not null
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:125:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:126:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:134:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:136:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:156:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:158:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:165:	Unnecessary modifier 'final' on method 'findCombineSafe': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:198:	The return type of the clone() method must be the class name when implements Cloneable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:198:	Unnecessary use of fully qualified name 'java.lang.CloneNotSupportedException' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:202:	Avoid unused method parameters such as 'out'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:202:	Unnecessary modifier 'final' on method 'writeObject': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:206:	Avoid unused method parameters such as 'in'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Control.java:206:	Unnecessary modifier 'final' on method 'readObject': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Cutoff.java:52:	Unnecessary modifiers 'public static final' on field 'NAME': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Cutoff.java:53:	Unnecessary modifiers 'public static final' on field 'INIFITY': the field is declared in an annotation type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventClassBuilder.java:123:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventControl.java:102:	Unnecessary use of fully qualified name 'java.lang.annotation.Annotation' due to existing import 'java.lang.annotation.Annotation'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventControl.java:172:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventControl.java:175:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventHandlerCreator.java:112:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventHandlerCreator.java:116:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventHandlerCreator.java:332:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventInstrumentation.java:489:	Unnecessary modifier 'final' on method 'updateExistingWithEmptyVoidMethod': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventInstrumentation.java:495:	Unnecessary modifier 'final' on method 'updateExistingWithReturnFalse': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventInstrumentation.java:511:	Unnecessary modifier 'final' on method 'updateMethod': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/EventWriter.java:135:	Avoid unnecessary return statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVM.java:46:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVM.java:47:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVM.java:358:	The instance method name 'endRecording_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVM.java:363:	The instance method name 'beginRecording_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMSupport.java:38:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMSupport.java:38:	The utility class name 'JVMSupport' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMSupport.java:58:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMSupport.java:85:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:37:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:37:	The utility class name 'JVMUpcalls' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:58:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:62:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:69:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:70:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:106:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:114:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:122:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/JVMUpcalls.java:123:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/LogTag.java:83:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Logger.java:35:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Logger.java:35:	The utility class name 'Logger' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:66:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:68:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:85:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:219:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:227:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataDescriptor.java:234:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataHandler.java:112:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataHandler.java:134:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataHandler.java:189:	Consider simply returning the value vs storing it in local variable 'c'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataHandler.java:202:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataReader.java:180:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataReader.java:204:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataRepository.java:146:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataRepository.java:187:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataRepository.java:191:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataRepository.java:191:	Unnecessary use of fully qualified name 'LogTag.JFR_SYSTEM' due to existing static import 'jdk.jfr.internal.LogTag.JFR_SYSTEM'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/MetadataWriter.java:148:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/OldObjectSample.java:46:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Options.java:37:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Options.java:37:	The utility class name 'Options' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformEventType.java:253:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformEventType.java:255:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformEventType.java:269:	Unnecessary modifier 'final' on method 'isRegistered': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:34:	Avoid unused imports such as 'java.io.IOException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:69:	Perhaps 'shutdownHook' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:191:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:272:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:334:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:369:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecorder.java:394:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:81:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:82:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:115:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:159:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:159:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:168:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:168:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:171:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:189:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:189:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:289:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:289:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:457:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:472:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:479:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:638:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PlatformRecording.java:640:	Unnecessary use of fully qualified name 'LogTag.JFR' due to existing static import 'jdk.jfr.internal.LogTag.JFR'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/PrivateAccess.java:50:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:67:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:90:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:114:	Consider simply returning the value vs storing it in local variable 'canonicalRepositoryPath'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:136:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:142:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:155:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Repository.java:157:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RepositoryChunk.java:50:	Perhaps 'repositoryPath' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RepositoryChunk.java:94:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RepositoryChunk.java:194:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RepositoryChunk.java:201:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:40:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:74:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:76:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:87:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:89:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:134:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:136:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:187:	The static method name 'run_requests' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:219:	The local variable name 'r_period' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:220:	The local variable name 'r_delta' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:231:	An empty statement (semicolon) not part of a loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/RequestEngine.java:235:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:73:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:73:	The utility class name 'SecuritySupport' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:105:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:107:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:118:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:120:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:177:	Unnecessary modifier 'public' on method 'run': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:181:	Unnecessary modifier 'public' on method 'call': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:197:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:250:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SecuritySupport.java:432:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/SettingsManager.java:216:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ShutdownHook.java:91:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/ShutdownHook.java:94:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/StringPool.java:32:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Type.java:163:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Type.java:280:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Type.java:283:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Type.java:288:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:79:	Unnecessary use of fully qualified name 'jdk.jfr.AnnotationElement' due to existing import 'jdk.jfr.AnnotationElement'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:102:	Unnecessary use of fully qualified name 'jdk.jfr.AnnotationElement' due to existing import 'jdk.jfr.AnnotationElement'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:114:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:179:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:325:	Avoid unused method parameters such as 'requestable'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:340:	Unnecessary use of fully qualified name 'jdk.jfr.AnnotationElement' due to existing import 'jdk.jfr.AnnotationElement'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:342:	Unnecessary use of fully qualified name 'jdk.jfr.AnnotationElement' due to existing import 'jdk.jfr.AnnotationElement'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:367:	Unnecessary use of fully qualified name 'jdk.jfr.AnnotationElement' due to existing import 'jdk.jfr.AnnotationElement'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:397:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/TypeLibrary.java:426:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:66:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:66:	The utility class name 'Utils' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:94:	Unnecessary modifier 'static' on enum 'TimespanUnit': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:203:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:235:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:256:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:280:	Ensure that resources like this RandomAccessFile object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:323:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:334:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:374:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:392:	Singleton is not thread safe
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:408:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:410:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/Utils.java:421:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/WriteableUserPath.java:58:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/WriteableUserPath.java:69:	Ensure that resources like this BufferedWriter object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/WriteableUserPath.java:133:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/WriteableUserPath.java:136:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:69:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:70:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:72:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:74:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:79:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:81:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:83:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:85:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:87:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:89:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:91:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/ChunkHeader.java:118:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:91:	Unnecessary modifier 'final' on method 'readByte': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:99:	Unnecessary modifier 'final' on method 'readFully': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:108:	Unnecessary modifier 'final' on method 'readFully': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:112:	Unnecessary modifier 'final' on method 'readRawShort': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:120:	Unnecessary modifier 'final' on method 'readDouble': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:126:	Unnecessary modifier 'final' on method 'readFloat': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:131:	Unnecessary modifier 'final' on method 'readRawInt': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:137:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:140:	Unnecessary modifier 'final' on method 'readRawLong': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:150:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:153:	Unnecessary modifier 'final' on method 'position': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:157:	Unnecessary modifier 'final' on method 'position': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:177:	Unnecessary modifier 'final' on method 'trimToFileSize': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:181:	Unnecessary modifier 'final' on method 'calculateBlockStart': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:194:	Unnecessary modifier 'final' on method 'size': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:198:	Unnecessary modifier 'final' on method 'close': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:203:	Unnecessary modifier 'final' on method 'skipBytes': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:210:	Unnecessary modifier 'final' on method 'readBoolean': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:225:	Unnecessary modifier 'final' on method 'readLine': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/consumer/RecordingInput.java:297:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/AbstractDCmd.java:113:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdCheck.java:68:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdCheck.java:129:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:74:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:91:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:101:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:108:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:115:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:122:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:129:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:136:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:143:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdConfigure.java:150:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:29:	Avoid unused imports such as 'java.nio.file.Path'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:30:	Avoid unused imports such as 'java.nio.file.Paths'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:76:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:137:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:156:	Method call on object which may be null
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:156:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:171:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:177:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:190:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdDump.java:199:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStart.java:86:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStart.java:101:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStart.java:172:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStop.java:60:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStop.java:73:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/dcmd/DCmdStop.java:82:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:98:	The return type of the clone() method must be the class name when implements Cloneable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:98:	Unnecessary use of fully qualified name 'java.lang.CloneNotSupportedException' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:102:	Avoid unused method parameters such as 'out'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:102:	Unnecessary modifier 'final' on method 'writeObject': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:106:	Avoid unused method parameters such as 'in'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/handlers/EventHandler.java:106:	Unnecessary modifier 'final' on method 'readObject': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/ConstructorTracerWriter.java:41:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/ConstructorTracerWriter.java:59:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/ConstructorTracerWriter.java:64:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/FileChannelImplInstrumentor.java:39:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/FileInputStreamInstrumentor.java:36:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/FileOutputStreamInstrumentor.java:36:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:53:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:53:	The utility class name 'JDKEvents' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:100:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:109:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:122:	Unnecessary use of fully qualified name 'java.lang.Throwable' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:123:	Unnecessary use of fully qualified name 'java.lang.Error' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:125:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:127:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:139:	Unnecessary use of fully qualified name 'java.lang.Throwable' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:141:	Unnecessary use of fully qualified name 'java.lang.Throwable' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:144:	Unnecessary use of fully qualified name 'java.lang.Error' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JDKEvents.java:146:	Unnecessary use of fully qualified name 'java.lang.Error' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIClassInstrumentation.java:69:	The method parameter name 'old_target_bytes' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIClassInstrumentation.java:82:	Ensure that resources like this InputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIInliner.java:81:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIInliner.java:89:	Consider simply returning the value vs storing it in local variable 'mci'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodCallInliner.java:78:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodCallInliner.java:94:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodInliningAdapter.java:69:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodMergeAdapter.java:87:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodMergeAdapter.java:99:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/JIMethodMergeAdapter.java:100:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/RandomAccessFileInstrumentor.java:37:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/SocketChannelImplInstrumentor.java:39:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/SocketInputStreamInstrumentor.java:38:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/SocketOutputStreamInstrumentor.java:38:	Class cannot be instantiated and does not provide any static methods or fields
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/ThrowableTracer.java:33:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/instrument/ThrowableTracer.java:33:	The utility class name 'ThrowableTracer' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:51:	The utility class name 'JFC' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:55:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:182:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:187:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:188:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:195:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:216:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:218:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:225:	Singleton is not thread safe
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFC.java:230:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParser.java:44:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParser.java:58:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParser.java:67:	Ensure that resources like this CharArrayReader object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParserHandler.java:47:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParserHandler.java:54:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParserHandler.java:54:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParserHandler.java:89:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/jfc/JFCParserHandler.java:89:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/management/ManagementSupport.java:52:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/management/ManagementSupport.java:52:	The utility class name 'ManagementSupport' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/management/ManagementSupport.java:85:	Unnecessary modifier 'final' on method 'formatTimespan': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/settings/BooleanValue.java:57:	Unnecessary modifier 'final' on method 'getValue': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/settings/PeriodSetting.java:67:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/settings/PeriodSetting.java:107:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/test/WhiteBox.java:28:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/test/WhiteBox.java:28:	The utility class name 'WhiteBox' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Assemble.java:87:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Assemble.java:106:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Assemble.java:110:	Avoid unused method parameters such as 'output'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Assemble.java:123:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:149:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:173:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:207:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:215:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:233:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:235:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:246:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Command.java:248:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:104:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:115:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:138:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:148:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:154:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:217:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:229:	Ensure that resources like this FileOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Disassemble.java:234:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/EventPrintWriter.java:88:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/EventPrintWriter.java:91:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/JSONWriter.java:66:	An empty statement (semicolon) not part of a loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Main.java:36:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Main.java:96:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Metadata.java:60:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Metadata.java:63:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/PrettyWriter.java:230:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/PrettyWriter.java:374:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/PrettyWriter.java:432:	Avoid unused method parameters such as 'postFix'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/PrettyWriter.java:499:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Print.java:105:	Ensure that resources like this PrintWriter object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Print.java:139:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/Print.java:257:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jfr/share/classes/jdk/jfr/internal/tool/StructuredWriter.java:34:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).

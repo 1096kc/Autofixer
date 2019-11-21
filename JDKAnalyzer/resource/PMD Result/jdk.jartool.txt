@@ -1,0 +1,347 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:47:	Unnecessary modifier 'public' on method 'getCommandLine': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:54:	Unnecessary modifier 'public' on method 'getTimestampingAuthority': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:61:	Unnecessary modifier 'public' on method 'getTimestampingAuthorityCertificate': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:68:	Unnecessary modifier 'public' on method 'getTSAPolicyID': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:79:	Unnecessary modifier 'public' on method 'getTSADigestAlg': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:88:	Unnecessary modifier 'public' on method 'getSignature': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:95:	Unnecessary modifier 'public' on method 'getSignatureAlgorithm': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:102:	Unnecessary modifier 'public' on method 'getSignerCertificateChain': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:110:	Unnecessary modifier 'public' on method 'getContent': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/com/sun/jarsigner/ContentSignerParameters.java:117:	Unnecessary modifier 'public' on method 'getSource': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:130:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:160:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:163:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:304:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:305:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:306:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:307:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:713:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:769:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:919:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:986:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:1019:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:1035:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:1039:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/jdk/security/jarsigner/JarSigner.java:1081:	Consider simply returning the value vs storing it in local variable 'signer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:83:	Unnecessary use of fully qualified name 'java.util.ResourceBundle' due to existing import 'java.util.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:139:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:161:	Perhaps 'zipFile' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:221:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:237:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:240:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:250:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:250:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:321:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:371:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:371:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:373:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:373:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:376:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:376:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:379:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:379:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:382:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:382:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:386:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:386:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:395:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:395:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:401:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:401:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:410:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:410:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:418:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:418:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:421:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:421:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:424:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:424:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:426:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:429:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:429:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:432:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:432:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:435:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:435:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:438:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:438:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:441:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:441:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:444:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:444:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:450:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:450:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:464:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:464:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:467:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:467:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:487:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:512:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:558:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:560:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:726:	Avoid empty while statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:743:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:756:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:775:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:775:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:776:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:777:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:789:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:800:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:853:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:859:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:863:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:883:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1027:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1030:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1143:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1144:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1145:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1340:	Static Formatter objects should be accessed in a synchronized manner
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1352:	Static Formatter objects should be accessed in a synchronized manner
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1366:	Static Formatter objects should be accessed in a synchronized manner
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1369:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1376:	Static Formatter objects should be accessed in a synchronized manner
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1390:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1394:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1417:	Static Formatter objects should be accessed in a synchronized manner
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1453:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1465:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1470:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1478:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1522:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1523:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1524:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1525:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1541:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1542:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1551:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1635:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1861:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1866:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1921:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1933:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1938:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1940:	Unnecessary use of fully qualified name 'java.security.cert.CertificateException' due to existing import 'java.security.cert.CertificateException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1941:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1944:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1947:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1950:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1958:	Unnecessary use of fully qualified name 'java.security.cert.Certificate' due to existing import 'java.security.cert.Certificate'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1962:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:1965:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2017:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2042:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2053:	Unnecessary use of fully qualified name 'java.security.cert.Certificate' due to existing import 'java.security.cert.Certificate'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2067:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2094:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2096:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2113:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2153:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2164:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2170:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2179:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2185:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2187:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2193:	An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2207:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Main.java:2219:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Resources_ja.java:33:	The class name 'Resources_ja' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/Resources_zh_CN.java:33:	The class name 'Resources_zh_CN' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:34:	Avoid unused imports such as 'com.sun.jarsigner'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:65:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:74:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:74:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:114:	Avoid unused local variables such as 'signatureAlgorithm'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:169:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/TimestampedSigner.java:183:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/CommandLine.java:44:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/CommandLine.java:59:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/CommandLine.java:72:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/CommandLine.java:78:	Ensure that resources like this BufferedReader object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:31:	Avoid unused imports such as 'java.io.InputStream'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:34:	Avoid unused imports such as 'java.util.HashMap'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:36:	Avoid unused imports such as 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:54:	You shouldnt declare field of MessageDigest type, because unsynchronized access could cause problems
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:102:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:103:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:112:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:136:	Avoid unused private methods such as 'sha1(byte)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:146:	The method parameter name 'sha1_1' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:146:	The method parameter name 'sha1_2' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:153:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:182:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:183:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:184:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:186:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:215:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:216:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:217:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:219:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:251:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:252:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:268:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:275:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:276:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:277:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:278:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:303:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:318:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:319:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:320:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/FingerPrint.java:322:	Ternary operators that can be simplified with || or &&
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:41:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:41:	The utility class name 'GNUStyleOptions' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:62:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:69:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:77:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:91:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:98:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:145:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:173:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:175:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:177:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:207:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:208:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:222:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:289:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:292:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:343:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/GNUStyleOptions.java:346:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:83:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:84:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:103:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:104:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:153:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:188:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:194:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:196:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:235:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:301:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:363:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:363:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:364:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:431:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:439:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:444:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:466:	Unnecessary use of fully qualified name 'StandardCopyOption.REPLACE_EXISTING' due to existing static import 'java.nio.file.StandardCopyOption.REPLACE_EXISTING'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:477:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:514:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:633:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:634:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:637:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:692:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:696:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:696:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:791:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:793:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:796:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:798:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:821:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:824:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:885:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:897:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:898:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:903:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:937:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:938:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:940:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:941:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1037:	Ensure that resources like this CRC32OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1091:	Unnecessary modifier 'final' on method 'isWinDriveLetter': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1092:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1165:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1182:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1248:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1285:	Ensure that resources like this CRC32OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1296:	Ensure that resources like this CRC32OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1306:	Ensure that resources like this CRC32OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1329:	The method 'add(ZipEntry)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1330:	Ternary operators that can be simplified with || or &&
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1330:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1330:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1388:	Ensure that resources like this ZipFile object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1456:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1458:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1499:	Ensure that resources like this ZipFile object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1530:	Avoid using implementation types like 'HashSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1547:	Ensure that resources like this JarFile object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1586:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1591:	This call to Collection.toArray() may be optimizable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1651:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1688:	Unnecessary use of fully qualified name 'java.io.OutputStream' due to existing import 'java.io.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1692:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1694:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1699:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1724:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1770:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1818:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1843:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1844:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1865:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1889:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1958:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1960:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:1962:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2025:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2093:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2097:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2101:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2131:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2135:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2145:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2182:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2184:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2230:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2241:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2244:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2245:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2253:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2254:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2256:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2268:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Main.java:2269:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:33:	Avoid duplicate imports such as 'java.util.Base64'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:49:	Avoid using implementation types like 'Vector'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:52:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:60:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:63:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:109:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:129:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:130:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:150:	Unnecessary modifier 'final' on method 'stdToLocal': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:154:	Unnecessary modifier 'final' on method 'localToStd': private methods cannot be overridden
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:157:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:159:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:181:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:192:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:204:	Ensure that resources like this PrintStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:250:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:252:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Manifest.java:252:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:33:	Avoid duplicate imports such as 'java.util.Base64'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:69:	Avoid using implementation types like 'Vector'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:76:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:145:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:222:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:245:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:262:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:272:	The local variable name 'enum_' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:309:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:320:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/SignatureFile.java:324:	Avoid using implementation types like 'Hashtable'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:28:	Avoid unused imports such as 'java.io.File'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:48:	Avoid unused imports such as 'java.util.jar.JarFile.MANIFEST_NAME'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:65:	Avoid unused private fields such as 'mdName'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:91:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:93:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:130:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:144:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:270:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jartool/share/classes/sun/tools/jar/Validator.java:280:	This statement should have braces

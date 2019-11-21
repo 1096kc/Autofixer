@@ -1,0 +1,401 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Authenticator.java:27:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Authenticator.java:28:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Authenticator.java:29:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/BasicAuthenticator.java:57:	The method 'authenticate(HttpExchange)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Filter.java:44:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:66:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:94:	The method 'size()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:96:	The method 'isEmpty()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:98:	The method 'containsKey(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:108:	The method 'containsValue(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:112:	The method 'get(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:130:	The method 'put(String, List)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:165:	The method 'remove(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:169:	The method 'putAll(Map)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:173:	The method 'clear()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:175:	The method 'keySet()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:177:	The method 'values()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:179:	The method 'entrySet()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:183:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/Headers.java:185:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpContext.java:27:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpContext.java:28:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpContext.java:45:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpExchange.java:29:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpExchange.java:30:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpExchange.java:32:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpExchange.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpExchange.java:69:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpHandler.java:44:	Unnecessary modifiers 'public abstract' on method 'handle': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:27:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:28:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:29:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:37:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:59:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:64:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:72:	The method 'getName()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:94:	The method 'hashCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpPrincipal.java:101:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:31:	Avoid unused imports such as 'java.security'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:32:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:35:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpServer.java:102:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:28:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:29:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:31:	Avoid unused imports such as 'java.security'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:32:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsConfigurator.java:34:	Avoid unused imports such as 'java.util.concurrent'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:28:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:29:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:30:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:31:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsExchange.java:44:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsParameters.java:59:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:31:	Avoid unused imports such as 'java.security'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:32:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:34:	Avoid unused imports such as 'java.util.concurrent'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:35:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/HttpsServer.java:52:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:84:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:90:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:113:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:164:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:167:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:169:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/com/sun/net/httpserver/spi/HttpServerProvider.java:171:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:31:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:32:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:33:	Avoid unused imports such as 'javax.security.auth'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:34:	Avoid unused imports such as 'javax.security.auth.callback'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:35:	Avoid unused imports such as 'javax.security.auth.login'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:45:	The method 'description()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:54:	Ensure that resources like this InputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:56:	Avoid empty while statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:56:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/AuthFilter.java:63:	The method 'doFilter(HttpExchange, Filter.Chain)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:29:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:77:	The local variable name 'len_arr' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:78:	The local variable name 'len_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:79:	The local variable name 'end_of_len' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:85:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:86:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:93:	Consider simply returning the value vs storing it in local variable 'l'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:113:	The method 'readImpl(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:139:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:161:	The method 'available()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:173:	The method 'isDataBuffered()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:178:	The method 'markSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:180:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:180:	The method 'mark(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedInputStream.java:183:	The method 'reset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:29:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:67:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:79:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:130:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:139:	Ensure that resources like this LeftOverInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:144:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ChunkedOutputStream.java:154:	The method 'flush()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Code.java:28:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Code.java:28:	The utility class name 'Code' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ContextList.java:29:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ContextList.java:30:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ContextList.java:36:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ContextList.java:55:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/DefaultHttpServerProvider.java:34:	The method 'createHttpServer(InetSocketAddress, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/DefaultHttpServerProvider.java:38:	The method 'createHttpsServer(InetSocketAddress, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Event.java:28:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Event.java:29:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:40:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:210:	Ensure that resources like this BufferedOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:211:	Ensure that resources like this PlaceholderOutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:219:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:220:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:221:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:230:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:339:	Ensure that resources like this Socket object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:346:	Ensure that resources like this Socket object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:432:	Unnecessary use of fully qualified name 'java.io.OutputStream' due to existing import 'java.io.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:454:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:459:	The method 'write(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:464:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:469:	The method 'flush()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ExchangeImpl.java:474:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:29:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:47:	The method 'readImpl(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:49:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:64:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:68:	The method 'available()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:76:	The method 'markSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:78:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:78:	The method 'mark(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthInputStream.java:81:	The method 'reset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:29:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:54:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:58:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:66:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:70:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:82:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:93:	Ensure that resources like this LeftOverInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/FixedLengthOutputStream.java:97:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:33:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:34:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:59:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:60:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:66:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:68:	The method 'toString()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:76:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:76:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpConnection.java:123:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:27:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:49:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:51:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:62:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:77:	The method 'getHandler()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:81:	The method 'setHandler(HttpHandler)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:95:	The method 'getPath()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:103:	The method 'getServer()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:127:	The method 'getAttributes()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:131:	The method 'getFilters()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:139:	The method 'setAuthenticator(Authenticator)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpContextImpl.java:146:	The method 'getAuthenticator()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:29:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:30:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:32:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:35:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:45:	The method 'getRequestHeaders()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:49:	The method 'getResponseHeaders()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:53:	The method 'getRequestURI()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:57:	The method 'getRequestMethod()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:61:	The method 'getHttpContext()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:65:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:69:	The method 'getRequestBody()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:73:	The method 'getResponseCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:77:	The method 'getResponseBody()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:82:	The method 'sendResponseHeaders(int, long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:88:	The method 'getRemoteAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:92:	The method 'getLocalAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:96:	The method 'getProtocol()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:100:	The method 'getAttribute(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:104:	The method 'setAttribute(String, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:108:	The method 'setStreams(InputStream, OutputStream)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpExchangeImpl.java:112:	The method 'getPrincipal()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:31:	Avoid unused imports such as 'java.security'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:32:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:35:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:37:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:53:	The method 'bind(InetSocketAddress, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:57:	The method 'start()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:61:	The method 'setExecutor(Executor)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:65:	The method 'getExecutor()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:69:	The method 'stop(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:73:	The method 'createContext(String, HttpHandler)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:77:	The method 'createContext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:81:	The method 'removeContext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:85:	The method 'removeContext(HttpContext)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpServerImpl.java:89:	The method 'getAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:29:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:30:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:35:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:45:	The method 'getRequestHeaders()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:49:	The method 'getResponseHeaders()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:53:	The method 'getRequestURI()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:57:	The method 'getRequestMethod()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:61:	The method 'getHttpContext()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:65:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:69:	The method 'getRequestBody()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:73:	The method 'getResponseCode()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:77:	The method 'getResponseBody()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:82:	The method 'sendResponseHeaders(int, long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:88:	The method 'getRemoteAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:92:	The method 'getLocalAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:96:	The method 'getProtocol()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:100:	The method 'getSSLSession()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:104:	The method 'getAttribute(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:108:	The method 'setAttribute(String, Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:112:	The method 'setStreams(InputStream, OutputStream)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsExchangeImpl.java:116:	The method 'getPrincipal()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:30:	Avoid unused imports such as 'java.nio'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:31:	Avoid unused imports such as 'java.security'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:32:	Avoid unused imports such as 'java.nio.channels'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:33:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:35:	Avoid unused imports such as 'javax.net.ssl'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:37:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:53:	The method 'setHttpsConfigurator(HttpsConfigurator)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:57:	The method 'getHttpsConfigurator()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:61:	The method 'bind(InetSocketAddress, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:65:	The method 'start()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:69:	The method 'setExecutor(Executor)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:73:	The method 'getExecutor()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:77:	The method 'stop(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:81:	The method 'createContext(String, HttpHandler)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:85:	The method 'createContext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:89:	The method 'removeContext(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:93:	The method 'removeContext(HttpContext)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/HttpsServerImpl.java:97:	The method 'getAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/LeftOverInputStream.java:29:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/LeftOverInputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/LeftOverInputStream.java:63:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/LeftOverInputStream.java:83:	The method 'read()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/LeftOverInputStream.java:95:	The method 'read(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:42:	Avoid unused private fields such as 'chan'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:55:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:55:	Ternary operators that can be simplified with || or &&
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:61:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:77:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:150:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:154:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:168:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:171:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:185:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:194:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:195:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:200:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:202:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:224:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:242:	The method 'read(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:246:	The method 'read()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:255:	The method 'read(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:257:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:260:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:305:	The method 'markSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:310:	The method 'available()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:312:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:315:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:318:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:323:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:331:	The method 'mark(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:333:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:340:	The method 'reset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:342:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:344:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:351:	Unnecessary use of fully qualified name 'java.io.OutputStream' due to existing import 'java.io.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:368:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:373:	The method 'write(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:377:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:380:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:394:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:398:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/Request.java:400:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:34:	Avoid unused imports such as 'javax.net.ssl.SSLEngineResult'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:88:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:97:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:111:	The method 'getClientAddress()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:114:	The method 'getHttpsConfigurator()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:119:	The method 'setSSLParameters(SSLParameters)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:248:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:249:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:262:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:385:	The local variable name 'hs_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:414:	The local variable name 'hs_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:449:	The method parameter name 'hs_status' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:457:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:457:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:508:	The method 'read(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:518:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:524:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:539:	The method 'available()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:543:	The method 'markSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:547:	The method 'reset()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:551:	The method 'skip(long)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:579:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:584:	The method 'read(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:590:	The method 'read()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:614:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:619:	The method 'write(byte)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:622:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:643:	The method 'flush()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/SSLStreams.java:647:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:37:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:37:	The utility class name 'ServerConfig' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:115:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:119:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:128:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerConfig.java:137:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:52:	Avoid unused private fields such as 'address'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:52:	Perhaps 'address' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:66:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:67:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:70:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:71:	Avoid unused private fields such as 'subticks'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:71:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:72:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:83:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:95:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:100:	Ensure that resources like this ServerSocket object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:119:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:120:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:123:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:133:	Ensure that resources like this ServerSocket object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:158:	The method 'execute(Runnable)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:191:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:231:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:241:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:250:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:258:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:264:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:298:	Ensure that resources like this LeftOverInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:323:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:329:	Ensure that resources like this SocketChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:343:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:348:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:377:	Ensure that resources like this SocketChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:398:	Ensure that resources like this SocketChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:427:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:449:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:513:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:613:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:618:	Position literals first in String comparisons for EqualsIgnoreCase
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:691:	The method 'handle(HttpExchange)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:762:	The method 'getTime()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:823:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:845:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:856:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:872:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/ServerImpl.java:886:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/TimeSource.java:29:	Unnecessary modifier 'public' on method 'getTime': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:29:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:30:	Avoid unused imports such as 'com.sun.net.httpserver'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:31:	Avoid unused imports such as 'com.sun.net.httpserver.spi'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:50:	The method 'write(int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:57:	The method 'write(byte, int, int)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:64:	The method 'close()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:70:	Ensure that resources like this LeftOverInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UndefLengthOutputStream.java:74:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:39:	The method 'size()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:41:	The method 'isEmpty()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:43:	The method 'containsKey(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:47:	The method 'containsValue(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:51:	The method 'get(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:55:	The method 'getFirst(String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:60:	The method 'put(String, List)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:64:	The method 'add(String, String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:68:	The method 'set(String, String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:72:	The method 'remove(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:76:	The method 'putAll(Map)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:80:	The method 'clear()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:84:	The method 'keySet()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:88:	The method 'values()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:94:	The method 'entrySet()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:98:	The method 'equals(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.httpserver/share/classes/sun/net/httpserver/UnmodifiableHeaders.java:100:	The method 'hashCode()' is missing an @Override annotation.

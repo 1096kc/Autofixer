@@ -1,0 +1,98 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinker.java:259:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:138:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:138:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:445:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:451:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:452:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/DynamicLinkerFactory.java:457:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/LinkerServicesImpl.java:163:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/NamedOperation.java:156:	Unnecessary modifier 'final' on method 'changeName': the method is already in a final class
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/NamespaceOperation.java:206:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/RelinkableCallSite.java:97:	Unnecessary modifier 'public' on method 'initialize': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/RelinkableCallSite.java:104:	Unnecessary modifier 'public' on method 'getDescriptor': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/RelinkableCallSite.java:129:	Unnecessary modifier 'public' on method 'relink': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/RelinkableCallSite.java:154:	Unnecessary modifier 'public' on method 'resetAndRelink': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:122:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:325:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:332:	Consider simply returning the value vs storing it in local variable 'e'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:353:	Consider simply returning the value vs storing it in local variable 'e'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:358:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:359:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:381:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/TypeConverterFactory.java:391:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AbstractJavaLinker.java:242:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AbstractJavaLinker.java:316:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AbstractJavaLinker.java:329:	Avoid unused local variables such as 'callSiteDescriptor'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AbstractJavaLinker.java:334:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AbstractJavaLinker.java:897:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AccessibleMembersLookup.java:191:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AccessibleMembersLookup.java:205:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/AccessibleMembersLookup.java:234:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/ApplicableOverloadedMethods.java:91:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/BeanLinker.java:181:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/BeanLinker.java:324:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/BeanLinker.java:430:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/BeanLinker.java:472:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/BeanLinker.java:512:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/CallerSensitiveDynamicMethod.java:68:	Avoid unused imports such as 'java.lang.reflect.Executable'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/CallerSensitiveDynamicMethod.java:79:	Avoid unused imports such as 'jdk.internal.reflect.CallerSensitive'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/CheckRestrictedPackage.java:72:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/CheckRestrictedPackage.java:72:	The utility class name 'CheckRestrictedPackage' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/ClassString.java:88:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/ClassString.java:122:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/ClassString.java:157:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/ClassString.java:203:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/FacetIntrospector.java:133:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/GuardedInvocationComponent.java:134:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/GuardedInvocationComponent.java:224:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/MaximallySpecific.java:75:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/MaximallySpecific.java:195:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/MissingMemberHandlerFactory.java:85:	Unnecessary modifier 'public' on method 'createMissingMemberHandler': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/OverloadedDynamicMethod.java:93:	Avoid using implementation types like 'LinkedList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/OverloadedDynamicMethod.java:330:	Ternary operators that can be simplified with || or &&
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/OverloadedMethod.java:90:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/OverloadedMethod.java:91:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/beans/SingleDynamicMethod.java:251:	Ternary operators that can be simplified with || or &&
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:37:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:84:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:104:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:113:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:113:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:116:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:116:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:119:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:119:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/internal/InternalTypeUtilities.java:183:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/ConversionComparator.java:96:	Unnecessary modifier 'public' on method 'compareConversion': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/GuardedInvocation.java:310:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/GuardedInvocation.java:310:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/GuardedInvocationTransformer.java:89:	Unnecessary modifier 'public' on method 'filter': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/GuardingDynamicLinker.java:117:	Unnecessary modifier 'public' on method 'getGuardedInvocation': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/GuardingTypeConverterFactory.java:131:	Unnecessary modifier 'public' on method 'convertToType': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkRequest.java:79:	Unnecessary modifier 'public' on method 'getCallSiteDescriptor': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkRequest.java:88:	Unnecessary modifier 'public' on method 'getArguments': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkRequest.java:98:	Unnecessary modifier 'public' on method 'getReceiver': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkRequest.java:108:	Unnecessary modifier 'public' on method 'isCallSiteUnstable': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkRequest.java:118:	Unnecessary modifier 'public' on method 'replaceArguments': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:99:	Unnecessary modifier 'public' on method 'asType': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:120:	Unnecessary modifier 'public' on method 'asTypeLosslessReturn': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:138:	Unnecessary modifier 'public' on method 'getTypeConverter': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:153:	Unnecessary modifier 'public' on method 'canConvert': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:171:	Unnecessary modifier 'public' on method 'getGuardedInvocation': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:185:	Unnecessary modifier 'public' on method 'compareConversion': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:198:	Unnecessary modifier 'public' on method 'filterInternalObjects': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/LinkerServices.java:228:	Unnecessary modifier 'public' on method 'getWithLookup': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/MethodHandleTransformer.java:79:	Unnecessary modifier 'public' on method 'transform': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/MethodTypeConversionStrategy.java:82:	Unnecessary modifier 'public' on method 'asType': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/TypeBasedGuardingDynamicLinker.java:79:	Unnecessary modifier 'public' on method 'canLinkType': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/CompositeTypeBasedGuardingDynamicLinker.java:105:	A switch statement does not contain a break
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/DefaultInternalObjectFilter.java:157:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/Guards.java:95:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/Guards.java:300:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/Lookup.java:67:	Avoid unused imports such as 'java.lang.reflect.Executable'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/TypeUtilities.java:74:	The utility class name 'TypeUtilities' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/linker/support/TypeUtilities.java:137:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/support/ChainedCallSite.java:93:	The final local variable name 'PRUNE' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/support/ChainedCallSite.java:146:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/support/ChainedCallSite.java:155:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.dynalink/share/classes/jdk/dynalink/support/ChainedCallSite.java:181:	A switch statement does not contain a break

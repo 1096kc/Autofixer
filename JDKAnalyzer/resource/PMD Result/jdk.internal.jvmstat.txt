@@ -1,0 +1,242 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/linux/classes/sun/jvmstat/PlatformSupportImpl.java:125:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/linux/classes/sun/jvmstat/PlatformSupportImpl.java:130:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/linux/classes/sun/jvmstat/PlatformSupportImpl.java:150:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/linux/classes/sun/jvmstat/PlatformSupportImpl.java:216:	The local variable name 'ns_pid' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/linux/classes/sun/jvmstat/PlatformSupportImpl.java:217:	Consider simply returning the value vs storing it in local variable 'ns_pid'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/PlatformSupport.java:52:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/PlatformSupport.java:58:	getInstance method always creates a new object and hence does not comply to Singleton Design Pattern behaviour. Please review
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/PlatformSupport.java:72:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/BufferedMonitoredVm.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/BufferedMonitoredVm.java:28:	No need to import a type that lives in the same package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/ByteArrayMonitor.java:48:	Unnecessary modifier 'public' on method 'byteArrayValue': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/ByteArrayMonitor.java:56:	Unnecessary modifier 'public' on method 'byteAt': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:109:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:109:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:245:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:245:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:248:	An empty statement (semicolon) not part of a loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:248:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:252:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:252:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:286:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:286:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:341:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:341:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:346:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:346:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:358:	Avoid unused local variables such as 'nuri'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:386:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:386:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:390:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:390:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/HostIdentifier.java:505:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/IntegerMonitor.java:47:	Unnecessary modifier 'public' on method 'intValue': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/LongMonitor.java:42:	Unnecessary modifier 'public' on method 'longValue': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredHost.java:225:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredHostService.java:40:	Unnecessary modifier 'public' on method 'getMonitoredHost': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredHostService.java:47:	Unnecessary modifier 'public' on method 'getScheme': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredVmUtil.java:35:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredVmUtil.java:134:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/MonitoredVmUtil.java:172:	Avoid unused private fields such as 'IS_KERNEL_VM'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/StringMonitor.java:43:	Unnecessary modifier 'public' on method 'stringValue': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/Units.java:34:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/Units.java:124:	Possible unsafe assignment to a non-final static field in a constructor.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/Variability.java:34:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/Variability.java:107:	Possible unsafe assignment to a non-final static field in a constructor.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/VmIdentifier.java:177:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/VmIdentifier.java:177:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/VmIdentifier.java:374:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/monitor/VmIdentifier.java:388:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AbstractMonitoredVm.java:30:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AbstractPerfDataBuffer.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AbstractPerfDataBuffer.java:30:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AbstractPerfDataBufferPrologue.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AbstractPerfDataBufferPrologue.java:135:	The local variable name 'byte_order' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:31:	Avoid unused imports such as 'java.util.regex'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:82:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:83:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:116:	Ensure that resources like this BufferedReader object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:129:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:130:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:145:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/AliasFileParser.java:146:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/CountedTimerTask.java:39:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/CountedTimerTaskUtils.java:36:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfByteArrayMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfDataBufferImpl.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfDataBufferImpl.java:121:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfDataBufferImpl.java:296:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfDataBufferImpl.java:299:	Avoid unused local variables such as 'm'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfIntegerMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfLongMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringConstantMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringMonitor.java:94:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringMonitor.java:94:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringMonitor.java:94:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringMonitor.java:99:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/PerfStringVariableMonitor.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/SyntaxException.java:28:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/SyntaxException.java:29:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/SyntaxException.java:30:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/SyntaxException.java:31:	Avoid unused imports such as 'java.util.regex'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:30:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:31:	Avoid unused imports such as 'java.util.List'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:32:	Avoid unused imports such as 'java.lang.reflect'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:33:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:66:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/FileMonitoredVm.java:74:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/MonitoredHostProvider.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/MonitoredHostProvider.java:30:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/MonitoredHostProvider.java:32:	Avoid unused imports such as 'java.net'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:31:	Avoid unused imports such as 'java.net.URI'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:60:	Ensure that resources like this FileChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:75:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/file/PerfDataBuffer.java:77:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalEventTimer.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalEventTimer.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor.MonitorStatus'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalEventTimer.java:31:	Avoid unused imports such as 'java.util.regex'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalEventTimer.java:32:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalEventTimer.java:41:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:29:	Avoid unused imports such as 'java.lang.reflect'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:30:	Avoid unused imports such as 'java.io'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:32:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:33:	Avoid unused imports such as 'sun.jvmstat.monitor.event'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:34:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:52:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalMonitoredVm.java:155:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:29:	Avoid unused imports such as 'sun.jvmstat.monitor.event'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:52:	Perhaps 'filePattern' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:55:	Perhaps 'tmpFilePattern' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:150:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:158:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:179:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/LocalVmManager.java:193:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:29:	Avoid unused imports such as 'sun.jvmstat.monitor.event'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:30:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:44:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:46:	Avoid using implementation types like 'HashSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:116:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:173:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:201:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/MonitoredHostProvider.java:209:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:29:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:30:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:31:	Avoid unused imports such as 'java.util'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:35:	Avoid unused imports such as 'java.lang.reflect.Constructor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:76:	Ensure that resources like this FileChannel object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:84:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataBuffer.java:87:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:29:	Avoid unused imports such as 'java.util.ArrayList'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:48:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:48:	The utility class name 'PerfDataFile' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:129:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:263:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:264:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:277:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/protocol/local/PerfDataFile.java:332:	Consider simply returning the value vs storing it in local variable 'nameList'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/BasicType.java:38:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/BasicType.java:90:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:31:	Avoid unused imports such as 'java.util.regex'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:51:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:57:	Avoid unused private fields such as 'PERFDATA_ENTRYLENGTH_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:58:	Avoid unused private fields such as 'PERFDATA_ENTRYLENGTH_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:59:	Avoid unused private fields such as 'PERFDATA_NAMELENGTH_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:60:	Avoid unused private fields such as 'PERFDATA_NAMELENGTH_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:61:	Avoid unused private fields such as 'PERFDATA_VECTORLENGTH_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:62:	Avoid unused private fields such as 'PERFDATA_VECTORLENGTH_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:63:	Avoid unused private fields such as 'PERFDATA_DATATYPE_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:64:	Avoid unused private fields such as 'PERFDATA_DATATYPE_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:65:	Avoid unused private fields such as 'PERFDATA_FLAGS_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:66:	Avoid unused private fields such as 'PERFDATA_FLAGS_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:67:	Avoid unused private fields such as 'PERFDATA_DATAUNITS_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:68:	Avoid unused private fields such as 'PERFDATA_DATAUNITS_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:69:	Avoid unused private fields such as 'PERFDATA_DATAATTR_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:70:	Avoid unused private fields such as 'PERFDATA_DATAATTR_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:80:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:155:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:155:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:296:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:296:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:317:	The local variable name 'jvm_version' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:323:	The local variable name 'jvm_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:334:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:334:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:334:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:334:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:389:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:389:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:409:	The local variable name 'eden_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:410:	The local variable name 's0_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:411:	The local variable name 's1_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:417:	The local variable name 'new_max_name' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:418:	The local variable name 'new_max' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:460:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:466:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:466:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:483:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:483:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:511:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:511:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:516:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBuffer.java:516:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:52:	Avoid unused private fields such as 'SUPPORTED_MAJOR_VERSION'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:53:	Avoid unused private fields such as 'SUPPORTED_MINOR_VERSION'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:82:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:82:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v1_0/PerfDataBufferPrologue.java:82:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:31:	Avoid unused imports such as 'java.util.regex'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:69:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:77:	Avoid unused private fields such as 'PERFDATA_ENTRYLENGTH_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:78:	Avoid unused private fields such as 'PERFDATA_ENTRYLENGTH_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:79:	Avoid unused private fields such as 'PERFDATA_NAMEOFFSET_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:80:	Avoid unused private fields such as 'PERFDATA_NAMEOFFSET_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:81:	Avoid unused private fields such as 'PERFDATA_VECTORLENGTH_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:82:	Avoid unused private fields such as 'PERFDATA_VECTORLENGTH_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:83:	Avoid unused private fields such as 'PERFDATA_DATATYPE_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:84:	Avoid unused private fields such as 'PERFDATA_DATATYPE_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:85:	Avoid unused private fields such as 'PERFDATA_FLAGS_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:86:	Avoid unused private fields such as 'PERFDATA_FLAGS_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:87:	Avoid unused private fields such as 'PERFDATA_DATAUNITS_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:88:	Avoid unused private fields such as 'PERFDATA_DATAUNITS_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:89:	Avoid unused private fields such as 'PERFDATA_DATAVAR_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:90:	Avoid unused private fields such as 'PERFDATA_DATAVAR_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:91:	Avoid unused private fields such as 'PERFDATA_DATAOFFSET_OFFSET'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:92:	Avoid unused private fields such as 'PERFDATA_DATAOFFSET_SIZE'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:98:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:289:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:296:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:296:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:314:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:314:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:353:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:398:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:398:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:399:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:405:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:412:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:412:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:416:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:419:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBuffer.java:428:	Avoid unused local variables such as 'dataSize'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:28:	Avoid unused imports such as 'sun.jvmstat.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:29:	Avoid unused imports such as 'sun.jvmstat.perfdata.monitor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:54:	Avoid unused private fields such as 'SUPPORTED_MAJOR_VERSION'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:55:	Avoid unused private fields such as 'SUPPORTED_MINOR_VERSION'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/PerfDataBufferPrologue.java:96:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/TypeCode.java:34:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/TypeCode.java:84:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.jvmstat/share/classes/sun/jvmstat/perfdata/monitor/v2_0/TypeCode.java:86:	Useless parentheses.

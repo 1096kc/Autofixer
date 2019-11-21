@@ -1,0 +1,2 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.ed/share/classes/jdk/internal/editor/external/ExternalEditor.java:167:	Ensure that resources like this Scanner object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.internal.ed/share/classes/jdk/internal/editor/external/ExternalEditor.java:219:	Avoid empty catch blocks

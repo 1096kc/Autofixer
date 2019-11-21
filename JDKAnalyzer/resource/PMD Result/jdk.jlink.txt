@@ -1,0 +1,306 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:79:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:111:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:282:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:398:	Avoid unused method parameters such as 'dbgFileName'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:443:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/linux/classes/jdk/tools/jlink/internal/plugins/StripNativeDebugSymbolsPlugin.java:470:	Unnecessary modifier 'static' on interface 'ObjCopyCmdBuilder': member interfaces are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:165:	Avoid unused private fields such as 'EXIT_SYSERR'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:215:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:217:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:267:	Avoid unused method parameters such as 'reader'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:272:	Unnecessary modifier 'public' on method 'apply': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:276:	Unnecessary modifier 'public' on method 'apply': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:281:	Unnecessary modifier 'public' on method 'apply': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:336:	Avoid unused method parameters such as 'file'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:351:	Avoid unused method parameters such as 'oldModule'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:351:	Avoid unused method parameters such as 'reader'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:363:	Avoid unused method parameters such as 'location'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/JImageTask.java:435:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/Main.java:31:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jimage/Main.java:31:	The utility class name 'Main' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:254:	Avoid protected methods in a final class that doesnt extend anything other than Object.  Change to private or package access.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:259:	Use one line for each declaration, it enhances code readability.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:345:	Ensure that resources like this OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:358:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:444:	Avoid unused private methods such as 'writeSymEntry(Path,Path)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/DefaultImageBuilder.java:518:	Avoid unused private methods such as 'createUtf8File(File,String)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/ImageBuilder.java:48:	Unnecessary modifier 'public' on method 'storeFiles': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/ImageBuilder.java:58:	Unnecessary modifier 'public' on method 'storeFiles': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/ImageBuilder.java:68:	Unnecessary modifier 'public' on method 'getJImageOutputStream': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/builder/ImageBuilder.java:76:	Unnecessary modifier 'public' on method 'getExecutableImage': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Archive.java:42:	Unnecessary modifier 'public' on class 'Entry': members of interface types are implicitly public
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Archive.java:44:	Unnecessary modifier 'static' on enum 'EntryType': nested enums are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/BasicImageWriter.java:39:	Avoid unused private fields such as 'RETRY_LIMIT'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/DirArchive.java:78:	Avoid unused private fields such as 'MODULE_INFO'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/DirArchive.java:134:	Ensure that resources like this InputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ExecutableImage.java:42:	Unnecessary modifier 'public' on method 'getHome': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ExecutableImage.java:49:	Unnecessary modifier 'public' on method 'getModules': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ExecutableImage.java:56:	Unnecessary modifier 'public' on method 'getExecutionArgs': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ExecutableImage.java:63:	Unnecessary modifier 'public' on method 'storeLaunchArgs': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginConfiguration.java:34:	Avoid unused imports such as 'java.util.Map.Entry'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginConfiguration.java:44:	The utility class name 'ImagePluginConfiguration' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:41:	Avoid unused imports such as 'java.util.function.Function'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:156:	Unnecessary use of fully qualified name 'java.util.Map.Entry' due to existing import 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:162:	Unnecessary use of fully qualified name 'java.util.Map.Entry' due to existing import 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:164:	Consider simply returning the value vs storing it in local variable 'result'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:211:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImagePluginStack.java:256:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageResourcesTree.java:82:	Consider simply returning the value vs storing it in local variable 'item'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageResourcesTree.java:311:	Use opposite operator instead of the logic complement operator.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageResourcesTree.java:349:	Unnecessary use of fully qualified name 'java.util.Map.Entry' due to existing import 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageResourcesTree.java:396:	Unnecessary use of fully qualified name 'java.util.Map.Entry' due to existing import 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageResourcesTree.java:427:	Perhaps 'paths' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ImageStringsWriter.java:38:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Jlink.java:30:	Avoid unused imports such as 'java.nio.file.Files'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Jlink.java:32:	Avoid unused imports such as 'java.nio.file.Paths'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Jlink.java:40:	Avoid unused imports such as 'jdk.internal.module.ModulePath'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:95:	Avoid unused local variables such as 'i'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:231:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:295:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:471:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:524:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:588:	The lambda parameter name '_k' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:589:	The lambda parameter name '_k' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:613:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:622:	The lambda parameter name '_k' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:705:	The lambda parameter name '_k' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:744:	Avoid unused private methods such as 'genBOMContent()'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/JlinkTask.java:757:	Avoid unused private methods such as 'genBOMContent(JlinkConfiguration,PluginsConfiguration)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Main.java:31:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Main.java:31:	The utility class name 'Main' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ModularJarArchive.java:40:	Avoid unused private fields such as 'MODULE_INFO'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ModuleSorter.java:93:	The lambda parameter name '_n' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ModuleSorter.java:103:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/PerfectHashBuilder.java:299:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/PerfectHashBuilder.java:305:	Consider simply returning the value vs storing it in local variable 'sorted'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/PerfectHashBuilder.java:325:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/PerfectHashBuilder.java:355:	Avoid using a branching statement as the last in a loop.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/PostProcessor.java:41:	Unnecessary modifier 'public' on method 'process': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:33:	Avoid unused imports such as 'java.io.IOException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:34:	Avoid unused imports such as 'java.io.UncheckedIOException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:35:	Avoid unused imports such as 'java.nio.ByteBuffer'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:36:	Avoid unused imports such as 'java.util.Collection'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:42:	Avoid unused imports such as 'jdk.tools.jlink.plugin.PluginException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:44:	Avoid unused imports such as 'jdk.tools.jlink.plugin.ResourcePoolEntry'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolConfiguration.java:47:	The utility class name 'ResourcePoolConfiguration' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:73:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:381:	Consider simply returning the value vs storing it in local variable 'entry'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:425:	The method parameter name 'uncompressed_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:444:	Overriding method merely calls super
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:458:	The local variable name 'uncompressed_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePoolManager.java:482:	Consider simply returning the value vs storing it in local variable 'compressedResource'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/ResourcePrevisitor.java:46:	Unnecessary modifier 'public' on method 'previsit': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/StringTable.java:36:	Unnecessary modifier 'public' on method 'addString': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/StringTable.java:43:	Unnecessary modifier 'public' on method 'getString': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:68:	Avoid unused private fields such as 'DEFAULTS_PROPERTY'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:128:	Avoid unused constructor parameters such as 'hidden'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:453:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:454:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:486:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:529:	Avoid unused method parameters such as 'args'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:571:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:655:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/TaskHelper.java:745:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Utils.java:38:	Avoid unused imports such as 'jdk.tools.jlink.plugin.Plugin.Category'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Utils.java:40:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Utils.java:40:	The utility class name 'Utils' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/Utils.java:88:	Singleton is not thread safe
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/packager/AppRuntimeImageBuilder.java:61:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/packager/AppRuntimeImageBuilder.java:61:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ExcludeJmodSectionPlugin.java:32:	Avoid unused imports such as 'jdk.tools.jlink.plugin.PluginException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ExcludeVMPlugin.java:106:	Avoid unused local variables such as 'path'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ExcludeVMPlugin.java:114:	Consider simply returning the value vs storing it in local variable 'ret'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ExcludeVMPlugin.java:224:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ExcludeVMPlugin.java:225:	Avoid using implementation types like 'TreeSet'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:88:	Avoid unnecessary constructors - the compiler will generate these for you
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:88:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:287:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:466:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:490:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/GenerateJLIClassesPlugin.java:491:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:104:	Perhaps 'filtered' could be replaced by a local variable.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:205:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:266:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:272:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:361:	Consider simply returning the value vs storing it in local variable 'ret'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:390:	Switch statements should have a default label
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:404:	Use equals() to compare strings instead of '==' or '!='
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:410:	Use equals() to compare strings instead of '==' or '!='
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/IncludeLocalesPlugin.java:415:	Use equals() to compare strings instead of '==' or '!='
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/LegalNoticeFilePlugin.java:111:	The lambda parameter name '_k' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/OrderResourcesPlugin.java:38:	Avoid unused imports such as 'jdk.tools.jlink.plugin.PluginException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/PluginsResourceBundle.java:32:	The utility class name 'PluginsResourceBundle' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/PluginsResourceBundle.java:44:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ResourceFilter.java:44:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StringSharingPlugin.java:246:	Avoid unused method parameters such as 'resource'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StringSharingPlugin.java:246:	Avoid unused method parameters such as 'resources'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StringSharingPlugin.java:249:	Ensure that resources like this DataInputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StringSharingPlugin.java:321:	The local variable name 'compressed_indices' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StringSharingPlugin.java:322:	The local variable name 'compressed_size' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/StripJavaDebugAttributesPlugin.java:70:	Avoid empty if statements
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:355:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:393:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:398:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:438:	Unnecessary use of fully qualified name 'Opcodes.ASM7' due to existing static import 'jdk.internal.org.objectweb.asm.Opcodes.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:443:	Unnecessary use of fully qualified name 'Opcodes.ASM7' due to existing static import 'jdk.internal.org.objectweb.asm.Opcodes.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:455:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:505:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:545:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:546:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:547:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:548:	This final field could be made static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:610:	Unnecessary use of fully qualified name 'Opcodes.V1_8' due to existing static import 'jdk.internal.org.objectweb.asm.Opcodes.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:695:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:761:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:916:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:1416:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:1440:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/SystemModulesPlugin.java:1728:	Unnecessary use of fully qualified name 'Opcodes.V1_8' due to existing static import 'jdk.internal.org.objectweb.asm.Opcodes.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/internal/plugins/ZipPlugin.java:50:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:27:	Avoid unused imports such as 'java.util.Collections'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:53:	Unnecessary modifier 'public' on enum 'Category': the enum is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:86:	Unnecessary modifier 'public' on enum 'State': the enum is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:97:	Unnecessary modifier 'public' on method 'getType': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:105:	Unnecessary modifier 'public' on method 'getState': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:113:	Unnecessary modifier 'public' on method 'getName': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:121:	Unnecessary modifier 'public' on method 'getDescription': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:132:	Unnecessary modifier 'public' on method 'getOption': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:151:	Unnecessary modifier 'public' on method 'hasArguments': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:159:	Unnecessary modifier 'public' on method 'getArgumentsDescription': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:168:	Unnecessary modifier 'public' on method 'getStateDescription': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:182:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:182:	Unnecessary modifier 'public' on method 'configure': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/Plugin.java:194:	Unnecessary modifier 'public' on method 'transform': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/PluginException.java:35:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:28:	Avoid unused imports such as 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:42:	Unnecessary modifier 'public' on method 'moduleView': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:49:	Unnecessary modifier 'public' on method 'entries': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:56:	Unnecessary modifier 'public' on method 'entryCount': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:64:	Unnecessary modifier 'public' on method 'findEntry': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:73:	Unnecessary modifier 'public' on method 'findEntryInContext': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:81:	Unnecessary modifier 'public' on method 'contains': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:88:	Unnecessary modifier 'public' on method 'isEmpty': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:95:	Unnecessary modifier 'public' on method 'byteOrder': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePool.java:109:	Unnecessary modifier 'public' on method 'transformAndCopy': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:27:	Avoid unused imports such as 'java.nio.ByteOrder'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:28:	Avoid unused imports such as 'java.util.Map'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:29:	Avoid unused imports such as 'java.util.Optional'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:30:	Avoid unused imports such as 'java.util.function.Function'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:31:	Avoid unused imports such as 'java.util.stream.Stream'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:43:	Unnecessary modifier 'public' on method 'add': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolBuilder.java:51:	Unnecessary modifier 'public' on method 'build': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:63:	Unnecessary modifier 'public' on enum 'Type': the enum is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:79:	Unnecessary modifier 'public' on method 'moduleName': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:86:	Unnecessary modifier 'public' on method 'path': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:93:	Unnecessary modifier 'public' on method 'type': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:100:	Unnecessary modifier 'public' on method 'contentLength': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:107:	Unnecessary modifier 'public' on method 'content': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:116:	Unnecessary modifier 'public' on method 'linkedTarget': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:125:	Unnecessary modifier 'public' on method 'contentBytes': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:138:	Unnecessary modifier 'public' on method 'write': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:153:	Unnecessary modifier 'public' on method 'copyWithContent': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:164:	Unnecessary modifier 'public' on method 'copyWithContent': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:176:	Unnecessary modifier 'public' on method 'create': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:188:	Unnecessary modifier 'public' on method 'create': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:200:	Unnecessary modifier 'public' on method 'create': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:212:	Unnecessary modifier 'public' on method 'create': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolEntry.java:227:	Unnecessary modifier 'public' on method 'createSymLink': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:31:	Avoid unused imports such as 'jdk.internal.module.ModuleTarget'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:42:	Unnecessary modifier 'public' on method 'name': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:51:	Unnecessary modifier 'public' on method 'findEntry': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:58:	Unnecessary modifier 'public' on method 'descriptor': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:65:	Unnecessary modifier 'public' on method 'targetPlatform': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:72:	Unnecessary modifier 'public' on method 'packages': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:79:	Unnecessary modifier 'public' on method 'entries': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModule.java:86:	Unnecessary modifier 'public' on method 'entryCount': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModuleView.java:41:	Unnecessary modifier 'public' on method 'findModule': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModuleView.java:49:	Unnecessary modifier 'public' on method 'findModule': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModuleView.java:59:	Unnecessary modifier 'public' on method 'modules': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jlink/plugin/ResourcePoolModuleView.java:66:	Unnecessary modifier 'public' on method 'moduleCount': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodOutputStream.java:41:	Avoid unused imports such as 'jdk.internal.jmod.JmodFile'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodOutputStream.java:46:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodOutputStream.java:52:	Ensure that resources like this OutputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodOutputStream.java:61:	Unnecessary use of fully qualified name 'JmodFile.writeMagicNumber' due to existing static import 'jdk.internal.jmod.JmodFile.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:45:	Avoid unused imports such as 'java.lang.module.ModuleDescriptor.Requires'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:230:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:255:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:270:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:318:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:344:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:346:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:407:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:474:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:515:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:564:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:573:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:644:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:645:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:668:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:684:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:722:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:735:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:748:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:766:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:785:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:809:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:893:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:923:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1077:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1079:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1080:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1083:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1096:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1098:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1101:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1114:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1118:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1133:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1147:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1148:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1149:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1150:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1151:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1152:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1154:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1174:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1189:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1392:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1395:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1397:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1401:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1403:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1405:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1407:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1409:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1411:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1413:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1415:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1417:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1419:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1425:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1427:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1429:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1431:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1434:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1441:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1447:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1451:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1455:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1458:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1460:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1468:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1473:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1475:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1480:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1484:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1493:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1496:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1502:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1504:	Avoid unnecessary if..then..else statements when returning booleans
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1505:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1511:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1512:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1549:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/JmodTask.java:1561:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/Main.java:31:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jlink/share/classes/jdk/tools/jmod/Main.java:31:	The utility class name 'Main' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'

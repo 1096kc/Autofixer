@@ -1,0 +1,20 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/BufferArray.java:51:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/CastExample.java:35:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/EvalWithArbitraryThis.java:38:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/EvalWithArbitraryThis.java:38:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/LambdaAsFunc.java:37:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/LambdaAsFunc.java:37:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/PrintToString.java:38:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/PrintToString.java:38:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/ArrayStreamLinkerExporter.java:63:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/BufferIndexingLinkerExporter.java:67:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/DOMLinkerExporter.java:62:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/DOMLinkerExporter.java:146:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/MissingMethodExample.java:36:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/MissingMethodHandler.java:34:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/MissingMethodHandler.java:36:	Unnecessary modifier 'public' on method 'doesNotUnderstand': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/MissingMethodLinkerExporter.java:60:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/MissingMethodLinkerExporter.java:138:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/UnderscoreNameLinkerExporter.java:47:	Avoid unused imports such as 'jdk.dynalink.linker.support.SimpleLinkRequest'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/UnderscoreNameLinkerExporter.java:54:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/sample/nashorn/dynalink/UnderscoreNameLinkerExporter.java:66:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale

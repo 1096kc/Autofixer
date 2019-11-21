@@ -1,0 +1,52 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/java/lang/instrument/ClassFileTransformer.java:28:	Avoid unused imports such as 'java.security.AccessController'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/java/lang/instrument/ClassFileTransformer.java:29:	Avoid unused imports such as 'java.security.PrivilegedAction'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/java/lang/instrument/ClassFileTransformer.java:197:	Return an empty array rather than null.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/module-info.java:34:	Unnecessary use of fully qualified name 'java.lang.instrument' due to existing implicit import 'java.lang.*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:59:	A class which only has private constructors should be final
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:65:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:66:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:82:	The method 'addTransformer(ClassFileTransformer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:87:	The method 'addTransformer(ClassFileTransformer, boolean)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:112:	The method 'removeTransformer(ClassFileTransformer)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:132:	The method 'isModifiableClass(Class)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:148:	The method 'isRetransformClassesSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:158:	The method 'retransformClasses(Class...)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:170:	The method 'isRedefineClassesSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:175:	The method 'redefineClasses(ClassDefinition...)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:184:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:197:	The method 'getAllLoadedClasses()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:203:	The method 'getInitiatedClasses(ClassLoader)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:208:	The method 'getObjectSize(Object)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:216:	The method 'appendToBootstrapClassLoaderSearch(JarFile)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:221:	The method 'appendToSystemClassLoaderSearch(JarFile)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:226:	The method 'isNativeMethodPrefixSupported()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:231:	The method 'setNativeMethodPrefix(ClassFileTransformer, String)' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:260:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:263:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:268:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:277:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:284:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:287:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:290:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:292:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:331:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:338:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:340:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:343:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:345:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:417:	The method 'run()' is missing an @Override annotation.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:457:	Unnecessary use of fully qualified name 'java.lang.instrument.Instrumentation' due to existing import 'java.lang.instrument.Instrumentation'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:471:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:483:	Unnecessary use of fully qualified name 'java.lang.instrument.Instrumentation' due to existing import 'java.lang.instrument.Instrumentation'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:487:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:521:	Avoid unused private methods such as 'loadClassAndCallPremain(String,String)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:531:	Avoid unused private methods such as 'loadClassAndCallAgentmain(String,String)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/InstrumentationImpl.java:540:	Avoid unused private methods such as 'transform(Module,ClassLoader,String,Class,ProtectionDomain,byte,boolean)'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:28:	Avoid unused imports such as 'java.lang.instrument.Instrumentation'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:142:	Useless parentheses.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:182:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:195:	A catch statement should never catch throwable since it includes errors.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:195:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:223:	Consider simply returning the value vs storing it in local variable 'transformerList'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:230:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/java.instrument/share/classes/sun/instrument/TransformerManager.java:234:	Use equals() to compare object references.

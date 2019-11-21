@@ -1,0 +1,2 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jsobject/share/classes/jdk/internal/netscape/javascript/spi/JSObjectProvider.java:44:	Unnecessary modifier 'public' on method 'getWindow': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jsobject/share/classes/netscape/javascript/JSObject.java:61:	Document empty constructor

@@ -1,0 +1,20 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:28:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:28:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:28:	The class name 'jvmtiEnvFill' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:45:	Ensure that resources like this PrintWriter object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:76:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:90:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:91:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:108:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:169:	Ensure that resources like this FileReader object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:200:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:202:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:214:	Position literals first in String comparisons
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:219:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:221:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiEnvFill.java:239:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiGen.java:47:	Avoid unused imports such as 'org.w3c.dom.DOMException'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiGen.java:49:	All classes, interfaces, enums and annotations must belong to a named package
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiGen.java:49:	The class name 'jvmtiGen' doesn't match '[A-Z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiGen.java:50:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/hotspot/share/prims/jvmtiGen.java:111:	Unnecessary modifier 'final' on resource specification 'os': resource specifications are implicitly final

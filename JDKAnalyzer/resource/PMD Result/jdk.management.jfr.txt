@@ -1,0 +1,13 @@
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/EventTypeInfo.java:75:	This for loop can be replaced by a foreach loop
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/FlightRecorderMXBean.java:177:	Unnecessary modifiers 'public static final' on field 'MXBEAN_NAME': the field is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/FlightRecorderMXBean.java:217:	Unnecessary modifier 'public' on method 'takeSnapshot': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/FlightRecorderMXBeanImpl.java:148:	Ensure that resources like this InputStream object are closed after use
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/FlightRecorderMXBeanImpl.java:348:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/FlightRecorderMXBeanImpl.java:360:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/MBeanUtils.java:42:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/MBeanUtils.java:100:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/MBeanUtils.java:107:	New exception is thrown in catch block, patterns stack trace may be lost
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/Stream.java:39:	Use of modifier volatile is not recommended.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/StreamManager.java:66:	Avoid empty catch blocks
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/Stringifier.java:32:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.management.jfr/share/classes/jdk/management/jfr/internal/FlightRecorderMXBeanProvider.java:80:	Use of modifier volatile is not recommended.
