@@ -216,12 +216,10 @@ public class AutoFixer {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        AutoFixer fixer = new AutoFixer("./AutoFixer/src/main/resources/patterns/Pattern5.java");
+        AutoFixer fixer = new AutoFixer("./AutoFixer/src/main/resources/patterns/Pattern1.java");
         fixer.print();
-        fixer.checkCamelCase();
-
-
-//        fixer.write();
+        fixer.checkStringEquals();
+        fixer.write();
     }
 
 }
