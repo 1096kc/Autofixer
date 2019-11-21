@@ -1,5 +1,0 @@
-2. Violation{description='	This statement should have braces', count=32514}
-3.Violation{description='	Useless parentheses.', count=27242}
-10.Violation{description='	Use equals() to compare object references.', count=3129}
-13.Violation{description='	Position literals first in String comparisons', count=2663}
-14.Violation{description='	Use one line for each declaration, it enhances code readability.', count=2422}
