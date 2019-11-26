@@ -1,3 +1,5 @@
+package patterns;
+
 public class Pattern1{
     public static void main(String[] args) {
         /*
@@ -11,4 +13,6 @@ public class Pattern1{
             System.out.println(222);
         }
     }
+
+
 }

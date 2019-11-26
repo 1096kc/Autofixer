@@ -346,10 +346,10 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/LiteralNode.java:652:	The utility class name 'ArrayLiteralInitializer' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/LiteralNode.java:771:	Use equals() to compare object references.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/LiteralNode.java:972:	Use equals() to compare object references.
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Node.java:206:	The return type of the clone() method must be the class name when implements Cloneable
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Node.java:206:	clone() method must be public if the class implements Cloneable
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Node.java:206:	clone() method should throw CloneNotSupportedException
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Node.java:287:	Use equals() to compare object references.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/patterns.Node.java:206:	The return type of the clone() method must be the class name when implements Cloneable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/patterns.Node.java:206:	clone() method must be public if the class implements Cloneable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/patterns.Node.java:206:	clone() method should throw CloneNotSupportedException
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/patterns.Node.java:287:	Use equals() to compare object references.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Optimistic.java:51:	Unnecessary modifier 'public' on method 'getProgramPoint': the method is declared in an interface type
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Optimistic.java:59:	Unnecessary modifier 'public' on method 'setProgramPoint': the method is declared in an interface type
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/ir/Optimistic.java:67:	Unnecessary modifier 'public' on method 'canBeOptimistic': the method is declared in an interface type
@@ -1935,7 +1935,7 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/EncloseNode.java:98:	This statement should have braces
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/EncloseNode.java:99:	This statement should have braces
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/EncloseNode.java:100:	This statement should have braces
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/Node.java:72:	Logger calls should be surrounded by log level guards.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/patterns.Node.java:72:	Logger calls should be surrounded by log level guards.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/QuantifierNode.java:279:	A switch statement does not contain a break
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/StateNode.java:35:	This statement should have braces
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.scripting.nashorn/share/classes/jdk/nashorn/internal/runtime/regexp/joni/ast/StateNode.java:36:	This statement should have braces

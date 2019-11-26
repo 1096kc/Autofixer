@@ -63,12 +63,12 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Modifier.java:62:	Unnecessary modifier 'public' on interface 'Filter': members of interface types are implicitly public
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Modifier.java:62:	Unnecessary modifier 'static' on interface 'Filter': member interfaces are implicitly static
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Modifier.java:63:	Unnecessary modifier 'public' on method 'isCompatible': the method is declared in an interface type
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:53:	Document empty constructor
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:108:	Unnecessary modifier 'static' on interface 'Visitor': member interfaces are implicitly static
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:109:	Unnecessary modifier 'public' on method 'visit': the method is declared in an interface type
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:112:	Unnecessary modifier 'static' on interface 'Iterator': member interfaces are implicitly static
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:113:	Unnecessary modifier 'public' on method 'hasNext': the method is declared in an interface type
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Node.java:114:	Unnecessary modifier 'public' on method 'next': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:53:	Document empty constructor
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:108:	Unnecessary modifier 'static' on interface 'Visitor': member interfaces are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:109:	Unnecessary modifier 'public' on method 'visit': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:112:	Unnecessary modifier 'static' on interface 'Iterator': member interfaces are implicitly static
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:113:	Unnecessary modifier 'public' on method 'hasNext': the method is declared in an interface type
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/patterns.Node.java:114:	Unnecessary modifier 'public' on method 'next': the method is declared in an interface type
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Option.java:165:	Useless parentheses.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Option.java:260:	Useless parentheses.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/demo/share/java2d/J2DBench/src/j2dbench/Option.java:273:	Useless parentheses.

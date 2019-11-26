@@ -1,0 +1,10 @@
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern1.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern1.java:3:	The utility class name 'Pattern1' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern2.java:13:	Avoid unused constructor parameters such as 'b'.
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern3.java:19:	Avoid unnecessary if..then..else statements when returning booleans
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern4.java:18:	Avoid unused local variables such as 'sum3'.
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern8.java:3:	Avoid unused imports such as 'java.io.File'
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern8.java:4:	Avoid unused imports such as 'java.io.FileInputStream'
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern8.java:5:	Avoid unused imports such as 'java.io.FileNotFoundException'
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern8.java:11:	Avoid unused local variables such as 'fin'.
+/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/modified/Pattern8.java:20:	Avoid unused local variables such as 'fin'.

@@ -2003,9 +2003,9 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NewInstanceExpression.java:507:	A switch statement does not contain a break
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NewInstanceExpression.java:529:	Avoid empty catch blocks
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NewInstanceExpression.java:544:	Useless parentheses.
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/Node.java:28:	Avoid unused imports such as 'sun.tools.java'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/Node.java:106:	The return type of the clone() method must be the class name when implements Cloneable
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/Node.java:106:	clone() method should throw CloneNotSupportedException
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/patterns.Node.java:28:	Avoid unused imports such as 'sun.tools.java'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/patterns.Node.java:106:	The return type of the clone() method must be the class name when implements Cloneable
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/patterns.Node.java:106:	clone() method should throw CloneNotSupportedException
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NotEqualExpression.java:28:	Avoid unused imports such as 'sun.tools.java'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NotExpression.java:28:	Avoid unused imports such as 'sun.tools.java'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.rmic/share/classes/sun/tools/tree/NotExpression.java:68:	Avoid using implementation types like 'Hashtable'; use the interface instead

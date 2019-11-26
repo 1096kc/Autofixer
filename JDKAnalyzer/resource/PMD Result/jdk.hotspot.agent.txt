@@ -5988,21 +5988,21 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/MultiNode.java:30:	Avoid unused imports such as 'sun.jvm.hotspot.oops'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/MultiNode.java:31:	Avoid unused imports such as 'sun.jvm.hotspot.types'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/MultiNode.java:43:	Avoid unused local variables such as 'type'.
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:28:	Avoid unused imports such as 'java.lang.reflect.Constructor'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:30:	Avoid unused imports such as 'sun.jvm.hotspot.debugger'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:31:	Avoid unused imports such as 'sun.jvm.hotspot.runtime'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:32:	Avoid unused imports such as 'sun.jvm.hotspot.oops'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:33:	Avoid unused imports such as 'sun.jvm.hotspot.types'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:59:	Avoid unused private fields such as 'outmaxField'.
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:71:	Avoid using implementation types like 'HashMap'; use the interface instead
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:73:	Avoid using implementation types like 'HashMap'; use the interface instead
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:80:	This statement should have braces
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:136:	Avoid using implementation types like 'ArrayList'; use the interface instead
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:154:	This statement should have braces
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:171:	This statement should have braces
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:190:	The instance method name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:234:	Avoid assignments in operands
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node.java:267:	Document empty method body
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:28:	Avoid unused imports such as 'java.lang.reflect.Constructor'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:30:	Avoid unused imports such as 'sun.jvm.hotspot.debugger'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:31:	Avoid unused imports such as 'sun.jvm.hotspot.runtime'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:32:	Avoid unused imports such as 'sun.jvm.hotspot.oops'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:33:	Avoid unused imports such as 'sun.jvm.hotspot.types'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:59:	Avoid unused private fields such as 'outmaxField'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:71:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:73:	Avoid using implementation types like 'HashMap'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:80:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:136:	Avoid using implementation types like 'ArrayList'; use the interface instead
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:154:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:171:	This statement should have braces
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:190:	The instance method name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:234:	Avoid assignments in operands
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/patterns.Node.java:267:	Document empty method body
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node_Array.java:28:	Avoid unused imports such as 'sun.jvm.hotspot.debugger'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node_Array.java:29:	Avoid unused imports such as 'sun.jvm.hotspot.runtime'
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.hotspot.agent/share/classes/sun/jvm/hotspot/opto/Node_Array.java:30:	Avoid unused imports such as 'sun.jvm.hotspot.oops'
