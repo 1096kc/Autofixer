@@ -579,22 +579,22 @@ public class AutoFixer {
         AutoFixer autoFixer = new AutoFixer();
 
         // code for 10 patterns
-//        File file = new File("./AutoFixer/src/main/resources/patterns");
-//        for (File temp : file.listFiles()) {
-//            if (temp.getName().endsWith("6.java")) {
-//                autoFixer.setInputFile(temp.getAbsolutePath());
-//                autoFixer.setDefaultOutPutFile();
-//                autoFixer.init();
-//                autoFixer.print();
-//                autoFixer.doRefactor();
-//            }
-//        }
+        File file = new File("./AutoFixer/src/main/resources/patterns");
+        for (File temp : file.listFiles()) {
+            if (temp.getName().endsWith("6.java")) {
+                autoFixer.setInputFile(temp.getAbsolutePath());
+                autoFixer.setDefaultOutPutFile();
+                autoFixer.init();
+                autoFixer.print();
+                autoFixer.doRefactor();
+            }
+        }
 
         // code for analyze javaparser
 //        autoFixer.analyze("./AutoFixer/src/main/resources/javaparser/original");
 
         // code for analyze pmd
-        autoFixer.analyze("./AutoFixer/src/main/resources/pmd/original");
+//        autoFixer.analyze("./AutoFixer/src/main/resources/pmd/original");
 
     }
 
