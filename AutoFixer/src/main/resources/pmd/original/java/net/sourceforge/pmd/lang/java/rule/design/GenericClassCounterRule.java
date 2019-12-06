@@ -42,7 +42,7 @@ import net.sourceforge.pmd.properties.StringProperty;
  *     &lt;!-- Define after how many occurences one should log a violation --&gt;
  *     &lt;property name="threshold" description="Defines how many occurences are legal"
  *         value="2"/&gt;
- *     &lt;!-- TODO: Add a parameter to allow "ignore" pattern based on name --&gt;
+ *     &lt;!-- TODO: Add a parameter to allow "ignore" patterns based on name --&gt;
  * </pre>
  *
  * @author Ryan Gutafson, rgustav@users.sourceforge.net

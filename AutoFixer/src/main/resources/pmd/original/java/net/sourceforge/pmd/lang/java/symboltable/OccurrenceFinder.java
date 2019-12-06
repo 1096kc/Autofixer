@@ -18,7 +18,7 @@ import net.sourceforge.pmd.lang.symboltable.Scope;
 
 public class OccurrenceFinder extends JavaParserVisitorAdapter {
 
-    // Maybe do some sort of State pattern thingy for when NameDeclaration
+    // Maybe do some sort of State patterns thingy for when NameDeclaration
     // is empty/not empty?
     private final Set<NameDeclaration> declarations = new HashSet<>();
 

@@ -36,7 +36,7 @@ public final class JavadocTag {
         public static final JavadocTag RETURN       = new JavadocTag("return",     " ");
         public static final JavadocTag INV          = new JavadocTag("inv",        " ");
         public static final JavadocTag INVARIANT    = new JavadocTag("invariant",  " ");
-        public static final JavadocTag PATTERN      = new JavadocTag("pattern",    " ");
+        public static final JavadocTag PATTERN      = new JavadocTag("patterns",    " ");
         public static final JavadocTag SERIAL       = new JavadocTag("serial",     " ");
         public static final JavadocTag SERIAL_DATA  = new JavadocTag("serialData", " ");
         public static final JavadocTag SERIAL_FIELD = new JavadocTag("serialField"," ");

@@ -68,7 +68,7 @@ class JavadocParser {
                 .collect(Collectors.joining(EOL));
 
             //Split up the entire tag back again, considering now that some lines belong to the same block tag.
-            //The pattern splits the block at each new line starting with the '@' symbol, thus the symbol
+            //The patterns splits the block at each new line starting with the '@' symbol, thus the symbol
             //then needs to be added again so that the block parsers handles everything correctly.
             blockLines = BLOCK_PATTERN
                 .splitAsStream(tagBlock)

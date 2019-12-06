@@ -55,7 +55,7 @@ import com.github.javaparser.ast.Generated;
  * Switching can now also be done on strings.
  *
  * <h2>Java 12</h2>
- * In preparation for pattern matching, lots of changes are made:
+ * In preparation for patterns matching, lots of changes are made:
  * <ul>
  * <li>multiple labels per case
  * <li>a -> syntax that does not fall through.

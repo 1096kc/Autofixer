@@ -59,7 +59,7 @@ class JavadocParser {
             // In this combined string it is easier to handle multiple lines which actually belong together
             String tagBlock = cleanLines.subList(indexOfFirstBlockTag, cleanLines.size()).stream().collect(Collectors.joining(EOL));
             // Split up the entire tag back again, considering now that some lines belong to the same block tag.
-            // The pattern splits the block at each new line starting with the '@' symbol, thus the symbol
+            // The patterns splits the block at each new line starting with the '@' symbol, thus the symbol
             // then needs to be added again so that the block parsers handles everything correctly.
             blockLines = BLOCK_PATTERN.splitAsStream(tagBlock).filter(s1 -> !s1.isEmpty()).map(s -> BLOCK_TAG_PREFIX + s).collect(Collectors.toList());
         }

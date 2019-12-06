@@ -21,7 +21,7 @@ import net.sourceforge.pmd.lang.symboltable.NameOccurrence;
 /**
  * This is an abstract rule for patterns which compare a method invocation to 0.
  * It could be further abstracted to find code that compares something to
- * another definable pattern
+ * another definable patterns
  * 
  * @author acaplan
  */

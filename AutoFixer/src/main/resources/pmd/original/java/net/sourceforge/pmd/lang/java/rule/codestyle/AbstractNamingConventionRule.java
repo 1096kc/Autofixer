@@ -48,7 +48,7 @@ abstract class AbstractNamingConventionRule<T extends JavaNode> extends Abstract
     /** Generic "kind" of node, eg "static method" or "utility class". */
     abstract String kindDisplayName(T node, PropertyDescriptor<Pattern> descriptor);
 
-    /** Extracts the name that should be pattern matched. */
+    /** Extracts the name that should be patterns matched. */
     String nameExtractor(T node) {
         return node.getImage();
     }

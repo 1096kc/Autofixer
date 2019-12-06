@@ -26,6 +26,7 @@ public class AutoFixer {
     private String inputFile;
     private String outPutFile;
 
+
     public AutoFixer() {
     }
 
@@ -94,14 +95,16 @@ public class AutoFixer {
                 AtomicBoolean caller = new AtomicBoolean();
                 AtomicReference<Optional<Expression>> callerString = new AtomicReference<>();
                 caller.setOpaque(false);
-                ((MethodCallExpr) node).getScope().get().getChildNodes().forEach(
-                        child -> {
-                            if (child instanceof SimpleName) {
-                                caller.setOpaque(true);
-                                callerString.setOpaque(((MethodCallExpr) node).getScope());
+                if (((MethodCallExpr) node).getScope().isPresent()) {
+                    ((MethodCallExpr) node).getScope().get().getChildNodes().forEach(
+                            child -> {
+                                if (child instanceof SimpleName) {
+                                    caller.setOpaque(true);
+                                    callerString.setOpaque(((MethodCallExpr) node).getScope());
+                                }
                             }
-                        }
-                );
+                    );
+                }
                 AtomicBoolean callee = new AtomicBoolean();
                 AtomicReference<Expression> calleeString = new AtomicReference<>();
                 callee.setOpaque(false);
@@ -175,6 +178,14 @@ public class AutoFixer {
                     return;
                 }
 
+                if (left instanceof EnclosedExpr && ((EnclosedExpr) left).getInner() instanceof AssignExpr) {
+                    return;
+                }
+
+                if (right instanceof EnclosedExpr && ((EnclosedExpr) right).getInner() instanceof AssignExpr) {
+                    return;
+                }
+
                 if (left instanceof EnclosedExpr && !(((EnclosedExpr) left).getInner() instanceof ConditionalExpr)) {
                     ((BinaryExpr) node).setLeft(((EnclosedExpr) left).getInner());
                 }
@@ -189,7 +200,18 @@ public class AutoFixer {
                 if (((ConditionalExpr) node).getCondition() instanceof EnclosedExpr) {
                     ((ConditionalExpr) node).setCondition(((EnclosedExpr) ((ConditionalExpr) node).getCondition()).getInner());
                 }
+                if (((ConditionalExpr) node).getThenExpr() instanceof EnclosedExpr) {
+                    ((ConditionalExpr) node).setThenExpr(((EnclosedExpr) ((ConditionalExpr) node).getThenExpr()).getInner());
+                }
+                if (((ConditionalExpr) node).getElseExpr() instanceof EnclosedExpr) {
+                    ((ConditionalExpr) node).setElseExpr(((EnclosedExpr) ((ConditionalExpr) node).getElseExpr()).getInner());
+                }
             }
+
+            if (node instanceof LambdaExpr && ((LambdaExpr) node).getBody() instanceof ExpressionStmt && ((ExpressionStmt) ((LambdaExpr) node).getBody()).getExpression() instanceof EnclosedExpr) {
+                ((ExpressionStmt) ((LambdaExpr) node).getBody()).setExpression(((EnclosedExpr) ((ExpressionStmt) ((LambdaExpr) node).getBody()).getExpression()).getInner());
+            }
+
         });
 
     }
@@ -267,13 +289,10 @@ public class AutoFixer {
     * */
     public void checkSingleLineDeclaration() {
         compilationUnit.findAll(ClassOrInterfaceDeclaration.class).forEach(classOrInterfaceDeclaration -> {
-//            List<FieldDeclaration> originalFields = new ArrayList<>();
             classOrInterfaceDeclaration.findAll(FieldDeclaration.class).forEach(fieldDeclaration -> {
                 if (fieldDeclaration.getParentNode().get() != classOrInterfaceDeclaration) {
                     return;
                 }
-//                originalFields.add(fieldDeclaration);
-
                     List<FieldDeclaration> newFileds = new ArrayList<>();
                     NodeList<Modifier> modifier = fieldDeclaration.getModifiers();
                     if (fieldDeclaration.getVariables().size() == 1) {
@@ -430,6 +449,7 @@ public class AutoFixer {
        });
 
        compilationUnit.findAll(ForStmt.class).forEach(statement -> {
+
            Statement body = ((ForStmt) statement).getBody();
            if (!(body instanceof BlockStmt)) {
                NodeList<Statement> temp = new NodeList<>();
@@ -462,7 +482,7 @@ public class AutoFixer {
 
     /*
     *
-    * For pattern 7
+    * For patterns 7
     * comment out empty method body
     *
     * */
@@ -516,19 +536,22 @@ public class AutoFixer {
     * */
     public void checkAssignmentInOperands(){
         compilationUnit.findAll(BinaryExpr.class).forEach(binaryExpr -> {
+            if (!((binaryExpr.getParentNode().get().getParentNode().get()) instanceof BlockStmt)) {
+                return;
+            }
             Expression left = binaryExpr.getLeft();
             Expression right = binaryExpr.getRight();
             if (left instanceof EnclosedExpr && ((EnclosedExpr) left).getInner() instanceof AssignExpr) {
                 ExpressionStmt stmt = new ExpressionStmt(((EnclosedExpr) left).getInner());
                 Expression newLeft = ((AssignExpr) ((EnclosedExpr) left).getInner()).getTarget();
-                BlockStmt parent = (BlockStmt) binaryExpr.getParentNode().get().getParentNode().get();
+                BlockStmt parent = (BlockStmt) (binaryExpr.getParentNode().get().getParentNode().get());
                 parent.addStatement(parent.getStatements().indexOf(binaryExpr.getParentNode().get()),stmt);
                 left.getParentNode().get().replace(left,newLeft);
             }
             if (right instanceof EnclosedExpr && ((EnclosedExpr) right).getInner() instanceof AssignExpr) {
                 ExpressionStmt stmt = new ExpressionStmt(((EnclosedExpr) right).getInner());
                 Expression newRight = ((AssignExpr) ((EnclosedExpr) right).getInner()).getTarget();
-                BlockStmt parent = (BlockStmt) binaryExpr.getParentNode().get().getParentNode().get();
+                BlockStmt parent = (BlockStmt) (binaryExpr.getParentNode().get().getParentNode().get());
                 parent.addStatement(parent.getStatements().indexOf(binaryExpr.getParentNode().get()),stmt);
                 right.getParentNode().get().replace(right,newRight);
             }
@@ -579,9 +602,9 @@ public class AutoFixer {
         AutoFixer autoFixer = new AutoFixer();
 
         // code for 10 patterns
-        File file = new File("./AutoFixer/src/main/resources/patterns");
+        File file = new File("./AutoFixer/src/main/resources/patterns/original");
         for (File temp : file.listFiles()) {
-            if (temp.getName().endsWith("6.java")) {
+            if (temp.getName().endsWith(".java")) {
                 autoFixer.setInputFile(temp.getAbsolutePath());
                 autoFixer.setDefaultOutPutFile();
                 autoFixer.init();
@@ -591,11 +614,13 @@ public class AutoFixer {
         }
 
         // code for analyze javaparser
-//        autoFixer.analyze("./AutoFixer/src/main/resources/javaparser/original");
+        autoFixer.analyze("./AutoFixer/src/main/resources/javaparser/original");
 
         // code for analyze pmd
 //        autoFixer.analyze("./AutoFixer/src/main/resources/pmd/original");
 
+        // code for analyze Guava
+//        autoFixer.analyze("./AutoFixer/src/main/resources/guava/original");
     }
 
 }

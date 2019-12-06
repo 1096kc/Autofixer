@@ -40,7 +40,7 @@ public class AvoidUsingHardCodedIPRule extends AbstractJavaRule {
     // Provides 4 capture groups that can be used for additional validation
     protected static final String IPV4_REGEXP = "([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})";
 
-    // Uses IPv4 pattern, but changes the groups to be non-capture
+    // Uses IPv4 patterns, but changes the groups to be non-capture
     protected static final String IPV6_REGEXP = "(?:(?:[0-9a-fA-F]{1,4})?\\:)+(?:[0-9a-fA-F]{1,4}|" + IPV4_REGEXP.replace("(", "(?:") + ")?";
 
     protected static final Pattern IPV4_PATTERN = Pattern.compile("^" + IPV4_REGEXP + "$");

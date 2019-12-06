@@ -5,7 +5,7 @@ package net.sourceforge.pmd.lang.java.ast;
 
 /**
  * AST visitor that doesn't take over control (doesn't drive the visit itself). That's wrapped into a {@link
- * JavaParserDecoratedVisitor} to implement a decorator pattern over a visitor.
+ * JavaParserDecoratedVisitor} to implement a decorator patterns over a visitor.
  *
  * @author Clément Fournier
  * @since 6.0.0

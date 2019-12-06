@@ -27,7 +27,7 @@ public final class RegexHelper {
      *
      * @param list
      *            the regex list
-     * @return the pattern list
+     * @return the patterns list
      */
     public static List<Pattern> compilePatternsFromList(List<String> list) {
         List<Pattern> patterns;
@@ -46,11 +46,11 @@ public final class RegexHelper {
 
     /**
      * Simple commodity method (also designed to increase readability of source
-     * code, and to decrease import in the calling class). Provide a pattern and
+     * code, and to decrease import in the calling class). Provide a patterns and
      * a subject, it'll do the proper matching.
      *
      * @param pattern
-     *            a compiled regex pattern
+     *            a compiled regex patterns
      * @param subject
      *            a String to match
      * @return {@code true} if there is a match; {@code false} otherwise

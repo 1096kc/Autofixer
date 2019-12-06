@@ -36,8 +36,9 @@ public class Analyzer {
             for (Map.Entry<String,Integer> entry : map.entrySet()) {
                 pq.add(new Violation(entry.getKey(),entry.getValue()));
             }
+            int i = 1;
             while (!pq.isEmpty()) {
-                System.out.println(pq.poll());
+                System.out.println("number "+ (i++) + " " + pq.poll());
             }
 
 

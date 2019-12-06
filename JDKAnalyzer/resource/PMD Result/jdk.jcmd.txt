@@ -99,7 +99,7 @@
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:248:	Useless parentheses.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:253:	New exception is thrown in catch block, patterns stack trace may be lost
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:273:	New exception is thrown in catch block, patterns stack trace may be lost
-/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:315:	Avoid unused local variables such as 'pattern'.
+/u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:315:	Avoid unused local variables such as 'patterns'.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:317:	New exception is thrown in catch block, patterns stack trace may be lost
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:424:	Avoid unused local variables such as 'i'.
 /u/kl4rw/software_artifacts/jdk13-0368f3a073a9/src/jdk.jcmd/share/classes/sun/tools/jstat/Arguments.java:438:	New exception is thrown in catch block, patterns stack trace may be lost

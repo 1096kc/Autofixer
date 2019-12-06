@@ -42,7 +42,7 @@ public class AssignmentToNonFinalStaticRule extends AbstractJavaRule {
         final List<Node> unsafeAssignments = new ArrayList<>();
         for (NameOccurrence occ : usages) {
             // specifically omitting prefix and postfix operators as there are
-            // legitimate usages of these with static fields, e.g. typesafe enum pattern.
+            // legitimate usages of these with static fields, e.g. typesafe enum patterns.
             if (((JavaNameOccurrence) occ).isOnLeftHandSide()) {
                 Node node = occ.getLocation();
                 Node constructor = node.getFirstParentOfType(ASTConstructorDeclaration.class);

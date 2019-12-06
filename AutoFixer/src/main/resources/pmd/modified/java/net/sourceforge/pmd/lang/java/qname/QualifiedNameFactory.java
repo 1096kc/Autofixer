@@ -94,7 +94,7 @@ public final class QualifiedNameFactory {
 
     /**
      * Parses a qualified name given in the format defined for this implementation. The format
-     * is specified by a regex pattern (see {@link #FORMAT}). Examples:
+     * is specified by a regex patterns (see {@link #FORMAT}). Examples:
      *
      * <p>{@code com.company.MyClass$Nested#myMethod(String, int)}
      * <ul>

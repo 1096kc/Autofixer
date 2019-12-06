@@ -8,7 +8,7 @@ package net.sourceforge.pmd.lang.java.ast;
  * External wrapper for a visitor decorator. This one drives the AST visit, delegating to the base controlless visitor
  * given in the constructor. Add decorators using the {@link #decorateWith(JavaParserVisitorDecorator)}.
  *
- * <p>Important! This modified decorator pattern compels you to use the data object as the accumulator for your result!
+ * <p>Important! This modified decorator patterns compels you to use the data object as the accumulator for your result!
  * The {@code visit} methods or your decorators and base visitors must only perform side effects on this object, their
  * return values will be ignored.
  *

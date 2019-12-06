@@ -149,7 +149,6 @@
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/ReceiverParameter.java:216:	Use equals() to compare object references.
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:24:	Avoid unused imports such as 'com.github.javaparser.ast'
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:43:	Avoid duplicate imports such as 'com.github.javaparser.ast.Node'
-/Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:195:	Useless parentheses.
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:221:	clone() method should be implemented only if implementing Cloneable interface
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:221:	clone() method should throw CloneNotSupportedException
 /Users/victor/IdeaProjects/Software_Artifacts/AutoFixer/src/main/resources/javaparser/modified/java/com/github/javaparser/ast/body/TypeDeclaration.java:249:	Use equals() to compare object references.

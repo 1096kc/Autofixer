@@ -12,7 +12,7 @@ import net.sourceforge.pmd.properties.StringProperty;
 
 /**
  * This class allow to match a Literal (most likely a String) with a regex
- * pattern. Obviously, there are many applications of it (such as
+ * patterns. Obviously, there are many applications of it (such as
  * basic.xml/AvoidUsingHardCodedIP).
  *
  * @author Romain PELISSE, belaran@gmail.com
@@ -34,9 +34,9 @@ public class GenericLiteralCheckerRule extends AbstractJavaRule {
 
     private void init() {
         if (pattern == null) {
-            // Retrieve the regex pattern set by user
+            // Retrieve the regex patterns set by user
             String stringPattern = super.getProperty(REGEX_PROPERTY);
-            // Compile the pattern only once
+            // Compile the patterns only once
             if (stringPattern != null && stringPattern.length() > 0) {
                 pattern = Pattern.compile(stringPattern);
             } else {
@@ -46,7 +46,7 @@ public class GenericLiteralCheckerRule extends AbstractJavaRule {
     }
 
     /**
-     * This method checks if the Literal matches the pattern. If it does, a
+     * This method checks if the Literal matches the patterns. If it does, a
      * violation is logged.
      */
     @Override
